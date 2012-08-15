@@ -1,0 +1,14 @@
+/etc/security/limits.conf
+	added
+		* soft nofile 40000
+		* hard nofile 40000
+	to increase max of allowed open files
+
+start/stop/check status of neo4j server using 
+	service neo4j-service {start|stop|status
+
+installed monit using:
+	yum install monit
+
+installed git using:
+	yum install git}
