@@ -1,4 +1,2 @@
 target/
 neo4j-community-1.7.2/data/log/
-neo4j-community-1.7.2/data/graph.db/index/
-neo4j-community-1.7.2/data/graph.db/lock
