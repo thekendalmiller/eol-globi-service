@@ -1,0 +1,396 @@
+2012-08-20 02:31:41.960+0000: Creating new db @ /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/neostore
+2012-08-20 02:31:42.073+0000: Opened [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.1] clean empty log, version=0, lastTxId=1
+2012-08-20 02:31:42.089+0000: TM new log: tm_tx_log.1
+2012-08-20 02:31:42.115+0000: Opened [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/index/lucene.log.1] clean empty log, version=0, lastTxId=1
+2012-08-20 02:31:42.118+0000: --- STARTUP diagnostics START ---
+2012-08-20 02:31:42.120+0000: Neo4j Kernel properties:
+    store_dir=/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data
+    remote_logging_host=127.0.0.1
+    read_only=false
+    logical_log=/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    load_kernel_extensions=true
+    array_block_size=120
+    neostore.relationshipstore.db.mapped_memory=1028M
+    intercept_committing_transactions=false
+    node_auto_indexing=false
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    neostore.nodestore.db.mapped_memory=233M
+    lucene_searcher_cache_size=2147483647
+    use_memory_mapped_buffers=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=809M
+    neostore.propertystore.db.strings.mapped_memory=713M
+    neo_store=/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/neostore
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=839M
+    gcr_cache_min_log_interval=60s
+    relationship_auto_indexing=false
+    relationship_grab_size=100
+    string_block_size=120
+    grab_file_lock=true
+    node_cache_array_fraction=1.0
+    remote_logging_enabled=false
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    online_backup_port=6362
+2012-08-20 02:31:42.124+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+2012-08-20 02:31:42.125+0000: System memory information:
+    Total Physical memory: 8.00 GB
+    Free Physical memory: 5.20 GB
+    Committed virtual memory: 2.68 GB
+    Total swap space: 64.00 MB
+    Free swap space: 64.00 MB
+2012-08-20 02:31:42.135+0000: JVM memory information:
+    Free  memory: 68.29 MB
+    Total memory: 81.06 MB
+    Max   memory: 123.94 MB
+    Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+    Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=514.00 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: Par Eden Space (Heap memory): committed=16.63 MB, used=12.78 MB, max=16.63 MB, threshold=?
+    Memory Pool: Par Survivor Space (Heap memory): committed=2.06 MB, used=0.00 B, max=2.06 MB, threshold=?
+    Memory Pool: CMS Old Gen (Heap memory): committed=62.38 MB, used=0.00 B, max=105.25 MB, threshold=0.00 B
+    Memory Pool: CMS Perm Gen (Non-heap memory): committed=20.75 MB, used=8.98 MB, max=82.00 MB, threshold=0.00 B
+2012-08-20 02:31:42.144+0000: Operating system information:
+    Operating System: Mac OS X; version: 10.7.4; arch: x86_64; cpus: 2
+    Max number of file descriptors: 10240
+    Number of open file descriptors: 58
+    Process id: 409@yellow.local
+    Byte order: LITTLE_ENDIAN
+2012-08-20 02:31:42.153+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Apple Inc.
+    VM Version: 20.8-b03-424
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: []
+2012-08-20 02:31:42.154+0000: Java classpath:
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar
+     [bootstrap] /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaRuntimeSupport.framework/Versions/A/Resources/Java/JavaRuntimeSupport.jar
+     [loader.1] file:/System/Library/Java/Extensions/dns_sd.jar
+     [loader.1] file:/System/Library/Java/Extensions/j3dutils.jar
+     [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+     [loader.1] file:/System/Library/Java/Extensions/jai_core.jar
+     [loader.1] file:/System/Library/Java/Extensions/vecmath.jar
+     [loader.1] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/jai_codec.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar
+     [loader.1] file:/Library/Java/Extensions/mysql-connector-java-3.0.7-stable-bin.jar
+     [loader.1] file:/System/Library/Java/Extensions/libJ3D.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar
+     [loader.1] file:/System/Library/Java/Extensions/QTJava.zip
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jce.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+     [classpath + loader.0] file:/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/trophic-graph-1.0-SNAPSHOT-all.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+     [loader.1] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+     [loader.1] file:/System/Library/Java/Extensions/j3daudio.jar
+     [loader.1] file:/Volumes/Data/Users/jorrit/Library/Java/Extensions/libJNPRAuthKit.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar
+     [loader.1] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+2012-08-20 02:31:42.158+0000: Library path:
+    /Users/jorrit/local/ImageMagick-6.7.5/lib
+    /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target
+    /Volumes/Data/Users/jorrit/Library/Java/Extensions
+    /Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+2012-08-20 02:31:42.159+0000: System.properties:
+    sun.boot.library.path = /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries
+    awt.nativeDoubleBuffering = true
+    gopherProxySet = false
+    mrj.build = 11M3720
+    path.separator = :
+    file.encoding.pkg = sun.io
+    sun.java.launcher = SUN_STANDARD
+    user.country = US
+    sun.os.patch.level = unknown
+    user.dir = /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target
+    sun.jnu.encoding = MacRoman
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    user.home = /Volumes/Data/Users/jorrit
+    user.timezone = America/Los_Angeles
+    file.encoding = MacRoman
+    user.name = jorrit
+    sun.java.command = trophic-graph-1.0-SNAPSHOT-all.jar
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = apple.awt.CToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    mrj.version = 1070.1.6.0_33-424
+    socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    sun.cpu.isalist = 
+2012-08-20 02:31:42.160+0000: --- STARTUP diagnostics END ---
+2012-08-20 02:31:42.163+0000: Extension org.neo4j.kernel.KernelExtension[online backup] loaded ok
+2012-08-20 02:31:42.166+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2012-08-20 02:31:42.166+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1345429901973, id:-7420423836827376369, store version: 13561656364791302]
+2012-08-20 02:31:42.167+0000: Kernel version: neo4j-kernel 1.7.2
+2012-08-20 02:31:42.167+0000: Neo4j component versions:
+2012-08-20 02:31:42.168+0000:   neo4j-kernel 1.7.2
+2012-08-20 02:31:42.168+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2012-08-20 02:31:42.170+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2012-08-20 02:31:42.170+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2012-08-20 02:31:42.171+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2012-08-20 02:31:42.171+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2012-08-20 02:31:42.171+0000: Id usage:
+    Id usage:
+      NodeStore: used=1 high=0
+      RelationshipStore: used=0 high=-1
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=0 high=-1
+      PropertyIndexStore: used=0 high=-1
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2012-08-20 02:31:42.172+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2012-08-20 02:31:42.172+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2012-08-20 02:31:42.173+0000: Storage files:
+    active_tx_log: 11.00 B
+    index:
+      lucene-store.db: 40.00 B
+      lucene.log.1: 16.00 B
+      lucene.log.active: 4.00 B
+    - Total: 60.00 B
+    lock: 0.00 B
+    messages.log: 9.82 kB
+    neostore: 54.00 B
+    neostore.id: 9.00 B
+    neostore.nodestore.db: 9.00 B
+    neostore.nodestore.db.id: 9.00 B
+    neostore.propertystore.db: 0.00 B
+    neostore.propertystore.db.arrays: 128.00 B
+    neostore.propertystore.db.arrays.id: 9.00 B
+    neostore.propertystore.db.id: 9.00 B
+    neostore.propertystore.db.index: 0.00 B
+    neostore.propertystore.db.index.id: 9.00 B
+    neostore.propertystore.db.index.keys: 38.00 B
+    neostore.propertystore.db.index.keys.id: 9.00 B
+    neostore.propertystore.db.strings: 128.00 B
+    neostore.propertystore.db.strings.id: 9.00 B
+    neostore.relationshipstore.db: 0.00 B
+    neostore.relationshipstore.db.id: 9.00 B
+    neostore.relationshiptypestore.db: 0.00 B
+    neostore.relationshiptypestore.db.id: 9.00 B
+    neostore.relationshiptypestore.db.names: 38.00 B
+    neostore.relationshiptypestore.db.names.id: 9.00 B
+    nioneo_logical.log.1: 16.00 B
+    nioneo_logical.log.active: 4.00 B
+    tm_tx_log.1: 0.00 B
+2012-08-20 02:31:42.179+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2012-08-20 02:31:42.181+0000: GC Monitor started. 
+2012-08-20 02:31:42.181+0000: Started - database is now available
+2012-08-20 02:31:57.586+0000: GC Monitor: Application threads blocked for an additional 523ms [total block time: 0.523s]
+2012-08-20 02:31:59.003+0000: GC Monitor: Application threads blocked for an additional 585ms [total block time: 1.108s]
+2012-08-20 02:32:00.834+0000: GC Monitor: Application threads blocked for an additional 574ms [total block time: 1.682s]
+2012-08-20 02:32:03.241+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.1] @ version=0 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.2 from position 26214450
+2012-08-20 02:32:03.295+0000: Rotate log first start entry @ pos=25030953 out of [13=Start[13,xid=GlobalId[NEOKERNL|-1751305138821389362|15], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2012-08-20 02:31:59.739+0000/1345429919739]]
+2012-08-20 02:32:03.876+0000: Rotate: old log scanned, newLog @ pos=1183513
+2012-08-20 02:32:03.882+0000: Log rotated, newLog @ pos=1183513, version 1 and last tx 12
+2012-08-20 02:32:05.304+0000: GC Monitor: Application threads blocked for an additional 665ms [total block time: 2.347s]
+2012-08-20 02:32:06.965+0000: GC Monitor: Application threads blocked for an additional 661ms [total block time: 3.008s]
+2012-08-20 02:32:08.682+0000: GC Monitor: Application threads blocked for an additional 678ms [total block time: 3.686s]
+2012-08-20 02:32:10.084+0000: GC Monitor: Application threads blocked for an additional 441ms [total block time: 4.127s]
+2012-08-20 02:32:11.175+0000: GC Monitor: Application threads blocked for an additional 551ms [total block time: 4.678s]
+2012-08-20 02:32:12.937+0000: GC Monitor: Application threads blocked for an additional 512ms [total block time: 5.19s]
+2012-08-20 02:32:13.906+0000: GC Monitor: Application threads blocked for an additional 651ms [total block time: 5.841s]
+2012-08-20 02:32:14.882+0000: GC Monitor: Application threads blocked for an additional 350ms [total block time: 6.191s]
+2012-08-20 02:32:15.661+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/index/lucene.log.1] @ version=0 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/index/lucene.log.2 from position 26214487
+2012-08-20 02:32:15.705+0000: Rotate log first start entry @ pos=25430383 out of [23=Start[23,xid=GlobalId[NEOKERNL|8135556957274746501|21], BranchId[ 49 54 50 51 55 52 ],master=-1,me=-1,time=2012-08-20 02:32:15.123+0000/1345429935123]]
+2012-08-20 02:32:16.059+0000: Rotate: old log scanned, newLog @ pos=784120
+2012-08-20 02:32:16.425+0000: Log rotated, newLog @ pos=784120, version 1 and last tx 22
+2012-08-20 02:32:18.192+0000: GC Monitor: Application threads blocked for an additional 300ms [total block time: 6.491s]
+2012-08-20 02:32:18.851+0000: GC Monitor: Application threads blocked for an additional 127ms [total block time: 6.618s]
+2012-08-20 02:32:22.115+0000: GC Monitor: Application threads blocked for an additional 494ms [total block time: 7.112s]
+2012-08-20 02:32:23.028+0000: GC Monitor: Application threads blocked for an additional 105ms [total block time: 7.217s]
+2012-08-20 02:32:23.655+0000: GC Monitor: Application threads blocked for an additional 527ms [total block time: 7.744s]
+2012-08-20 02:32:24.485+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.2] @ version=1 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.1 from position 26214458
+2012-08-20 02:32:24.493+0000: Rotate log first start entry @ pos=25755301 out of [24=Start[24,xid=GlobalId[NEOKERNL|-4443928090352093841|26], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2012-08-20 02:32:22.772+0000/1345429942772]]
+2012-08-20 02:32:24.599+0000: Rotate: old log scanned, newLog @ pos=459173
+2012-08-20 02:32:24.602+0000: Log rotated, newLog @ pos=459173, version 2 and last tx 23
+2012-08-20 02:32:26.058+0000: GC Monitor: Application threads blocked for an additional 579ms [total block time: 8.323s]
+2012-08-20 02:32:27.449+0000: GC Monitor: Application threads blocked for an additional 539ms [total block time: 8.862s]
+2012-08-20 02:32:28.832+0000: GC Monitor: Application threads blocked for an additional 610ms [total block time: 9.472s]
+2012-08-20 02:32:31.499+0000: GC Monitor: Application threads blocked for an additional 412ms [total block time: 9.884s]
+2012-08-20 02:32:32.908+0000: GC Monitor: Application threads blocked for an additional 526ms [total block time: 10.41s]
+2012-08-20 02:32:34.266+0000: GC Monitor: Application threads blocked for an additional 502ms [total block time: 10.912s]
+2012-08-20 02:32:36.137+0000: GC Monitor: Application threads blocked for an additional 523ms [total block time: 11.435s]
+2012-08-20 02:32:37.519+0000: GC Monitor: Application threads blocked for an additional 433ms [total block time: 11.868s]
+2012-08-20 02:32:39.081+0000: GC Monitor: Application threads blocked for an additional 476ms [total block time: 12.344s]
+2012-08-20 02:32:40.349+0000: GC Monitor: Application threads blocked for an additional 516ms [total block time: 12.86s]
+2012-08-20 02:32:41.353+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.1] @ version=2 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.2 from position 26214416
+2012-08-20 02:32:41.354+0000: Rotate log first start entry @ pos=26033721 out of [35=Start[35,xid=GlobalId[NEOKERNL|-1820855159134120769|37], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2012-08-20 02:32:39.494+0000/1345429959494]]
+2012-08-20 02:32:41.397+0000: Rotate: old log scanned, newLog @ pos=180711
+2012-08-20 02:32:41.400+0000: Log rotated, newLog @ pos=180711, version 3 and last tx 34
+2012-08-20 02:32:42.855+0000: GC Monitor: Application threads blocked for an additional 561ms [total block time: 13.421s]
+2012-08-20 02:32:43.320+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/index/lucene.log.2] @ version=1 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/index/lucene.log.1 from position 26214415
+2012-08-20 02:32:43.359+0000: Rotate log first start entry @ pos=25883177 out of [40=Start[40,xid=GlobalId[NEOKERNL|-4633863898569097326|38], BranchId[ 49 54 50 51 55 52 ],master=-1,me=-1,time=2012-08-20 02:32:41.903+0000/1345429961903]]
+2012-08-20 02:32:43.422+0000: Rotate: old log scanned, newLog @ pos=331254
+2012-08-20 02:32:43.477+0000: Log rotated, newLog @ pos=331254, version 2 and last tx 39
+2012-08-20 02:32:44.659+0000: GC Monitor: Application threads blocked for an additional 583ms [total block time: 14.004s]
+2012-08-20 02:32:46.349+0000: GC Monitor: Application threads blocked for an additional 675ms [total block time: 14.679s]
+2012-08-20 02:32:47.451+0000: GC Monitor: Application threads blocked for an additional 445ms [total block time: 15.124s]
+2012-08-20 02:32:48.525+0000: GC Monitor: Application threads blocked for an additional 652ms [total block time: 15.776s]
+2012-08-20 02:32:49.476+0000: GC Monitor: Application threads blocked for an additional 427ms [total block time: 16.203s]
+2012-08-20 02:32:50.490+0000: GC Monitor: Application threads blocked for an additional 609ms [total block time: 16.812s]
+2012-08-20 02:32:51.119+0000: GC Monitor: Application threads blocked for an additional 529ms [total block time: 17.341s]
+2012-08-20 02:32:52.242+0000: GC Monitor: Application threads blocked for an additional 620ms [total block time: 17.961s]
+2012-08-20 02:32:54.580+0000: GC Monitor: Application threads blocked for an additional 446ms [total block time: 18.407s]
+2012-08-20 02:32:56.177+0000: GC Monitor: Application threads blocked for an additional 500ms [total block time: 18.907s]
+2012-08-20 02:32:57.527+0000: GC Monitor: Application threads blocked for an additional 482ms [total block time: 19.389s]
+2012-08-20 02:32:58.965+0000: GC Monitor: Application threads blocked for an additional 498ms [total block time: 19.887s]
+2012-08-20 02:32:59.868+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.2] @ version=3 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.1 from position 26214417
+2012-08-20 02:32:59.990+0000: Rotate log first start entry @ pos=23903520 out of [45=Start[45,xid=GlobalId[NEOKERNL|6121237092995362511|47], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2012-08-20 02:32:58.166+0000/1345429978166]]
+2012-08-20 02:33:00.569+0000: Rotate: old log scanned, newLog @ pos=2310913
+2012-08-20 02:33:00.577+0000: Log rotated, newLog @ pos=2310913, version 4 and last tx 44
+2012-08-20 02:33:01.743+0000: GC Monitor: Application threads blocked for an additional 553ms [total block time: 20.44s]
+2012-08-20 02:33:02.587+0000: GC Monitor: Application threads blocked for an additional 125ms [total block time: 20.565s]
+2012-08-20 02:33:03.257+0000: GC Monitor: Application threads blocked for an additional 570ms [total block time: 21.135s]
+2012-08-20 02:33:04.172+0000: GC Monitor: Application threads blocked for an additional 601ms [total block time: 21.736s]
+2012-08-20 02:33:04.884+0000: GC Monitor: Application threads blocked for an additional 511ms [total block time: 22.247s]
+2012-08-20 02:33:05.789+0000: GC Monitor: Application threads blocked for an additional 599ms [total block time: 22.846s]
+2012-08-20 02:33:06.796+0000: GC Monitor: Application threads blocked for an additional 699ms [total block time: 23.545s]
+2012-08-20 02:33:07.533+0000: GC Monitor: Application threads blocked for an additional 428ms [total block time: 23.973s]
+2012-08-20 02:33:08.517+0000: GC Monitor: Application threads blocked for an additional 565ms [total block time: 24.538s]
+2012-08-20 02:33:09.581+0000: GC Monitor: Application threads blocked for an additional 401ms [total block time: 24.939s]
+2012-08-20 02:33:10.548+0000: GC Monitor: Application threads blocked for an additional 557ms [total block time: 25.496s]
+2012-08-20 02:33:11.566+0000: GC Monitor: Application threads blocked for an additional 469ms [total block time: 25.965s]
+2012-08-20 02:33:14.430+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/index/lucene.log.1] @ version=2 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/index/lucene.log.2 from position 26214438
+2012-08-20 02:33:14.627+0000: Rotate log first start entry @ pos=24716028 out of [56=Start[56,xid=GlobalId[NEOKERNL|-9038349903473293963|54], BranchId[ 49 54 50 51 55 52 ],master=-1,me=-1,time=2012-08-20 02:33:13.067+0000/1345429993067]]
+2012-08-20 02:33:14.952+0000: Rotate: old log scanned, newLog @ pos=1498426
+2012-08-20 02:33:15.006+0000: Log rotated, newLog @ pos=1498426, version 3 and last tx 55
+2012-08-20 02:33:16.373+0000: GC Monitor: Application threads blocked for an additional 623ms [total block time: 26.588s]
+2012-08-20 02:33:17.621+0000: GC Monitor: Application threads blocked for an additional 469ms [total block time: 27.057s]
+2012-08-20 02:33:19.643+0000: GC Monitor: Application threads blocked for an additional 553ms [total block time: 27.61s]
+2012-08-20 02:33:20.276+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.1] @ version=4 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.2 from position 26214455
+2012-08-20 02:33:20.352+0000: Rotate log first start entry @ pos=23988755 out of [55=Start[55,xid=GlobalId[NEOKERNL|2297354009840235619|57], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2012-08-20 02:33:18.525+0000/1345429998525]]
+2012-08-20 02:33:20.912+0000: Rotate: old log scanned, newLog @ pos=2225716
+2012-08-20 02:33:20.915+0000: Log rotated, newLog @ pos=2225716, version 5 and last tx 54
+2012-08-20 02:33:22.114+0000: GC Monitor: Application threads blocked for an additional 543ms [total block time: 28.153s]
+2012-08-20 02:33:23.543+0000: GC Monitor: Application threads blocked for an additional 478ms [total block time: 28.631s]
+2012-08-20 02:33:25.175+0000: GC Monitor: Application threads blocked for an additional 508ms [total block time: 29.139s]
+2012-08-20 02:33:26.522+0000: GC Monitor: Application threads blocked for an additional 529ms [total block time: 29.668s]
+2012-08-20 02:33:27.980+0000: GC Monitor: Application threads blocked for an additional 537ms [total block time: 30.205s]
+2012-08-20 02:33:29.451+0000: GC Monitor: Application threads blocked for an additional 634ms [total block time: 30.839s]
+2012-08-20 02:33:30.486+0000: GC Monitor: Application threads blocked for an additional 475ms [total block time: 31.314s]
+2012-08-20 02:33:31.655+0000: GC Monitor: Application threads blocked for an additional 428ms [total block time: 31.742s]
+2012-08-20 02:33:32.790+0000: GC Monitor: Application threads blocked for an additional 489ms [total block time: 32.231s]
+2012-08-20 02:33:34.201+0000: GC Monitor: Application threads blocked for an additional 381ms [total block time: 32.612s]
+2012-08-20 02:33:35.699+0000: GC Monitor: Application threads blocked for an additional 561ms [total block time: 33.173s]
+2012-08-20 02:33:36.773+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.2] @ version=5 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.1 from position 26214447
+2012-08-20 02:33:36.923+0000: Rotate log first start entry @ pos=24013539 out of [65=Start[65,xid=GlobalId[NEOKERNL|-3644982018720990431|67], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2012-08-20 02:33:34.919+0000/1345430014919]]
+2012-08-20 02:33:37.524+0000: Rotate: old log scanned, newLog @ pos=2200924
+2012-08-20 02:33:37.527+0000: Log rotated, newLog @ pos=2200924, version 6 and last tx 64
+2012-08-20 02:33:38.233+0000: GC Monitor: Application threads blocked for an additional 456ms [total block time: 33.629s]
+2012-08-20 02:33:39.327+0000: GC Monitor: Application threads blocked for an additional 582ms [total block time: 34.211s]
+2012-08-20 02:33:40.407+0000: GC Monitor: Application threads blocked for an additional 416ms [total block time: 34.627s]
+2012-08-20 02:33:41.681+0000: GC Monitor: Application threads blocked for an additional 422ms [total block time: 35.049s]
+2012-08-20 02:33:42.911+0000: GC Monitor: Application threads blocked for an additional 633ms [total block time: 35.682s]
+2012-08-20 02:33:43.352+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/index/lucene.log.2] @ version=3 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/index/lucene.log.1 from position 26214434
+2012-08-20 02:33:44.162+0000: Rotate log first start entry @ pos=25595460 out of [72=Start[72,xid=GlobalId[NEOKERNL|1392531310734679088|70], BranchId[ 49 54 50 51 55 52 ],master=-1,me=-1,time=2012-08-20 02:33:41.850+0000/1345430021850]]
+2012-08-20 02:33:44.175+0000: GC Monitor: Application threads blocked for an additional 721ms [total block time: 36.403s]
+2012-08-20 02:33:44.512+0000: Rotate: old log scanned, newLog @ pos=618990
+2012-08-20 02:33:44.516+0000: Log rotated, newLog @ pos=618990, version 4 and last tx 71
+2012-08-20 02:33:46.311+0000: GC Monitor: Application threads blocked for an additional 377ms [total block time: 36.78s]
+2012-08-20 02:33:47.980+0000: GC Monitor: Application threads blocked for an additional 621ms [total block time: 37.401s]
+2012-08-20 02:33:49.469+0000: GC Monitor: Application threads blocked for an additional 371ms [total block time: 37.772s]
+2012-08-20 02:33:51.241+0000: GC Monitor: Application threads blocked for an additional 710ms [total block time: 38.482s]
+2012-08-20 02:33:52.624+0000: GC Monitor: Application threads blocked for an additional 553ms [total block time: 39.035s]
+2012-08-20 02:33:53.684+0000: GC Monitor: Application threads blocked for an additional 401ms [total block time: 39.436s]
+2012-08-20 02:33:54.732+0000: GC Monitor: Application threads blocked for an additional 534ms [total block time: 39.97s]
+2012-08-20 02:33:56.032+0000: GC Monitor: Application threads blocked for an additional 555ms [total block time: 40.525s]
+2012-08-20 02:33:56.906+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.1] @ version=6 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.2 from position 26214437
+2012-08-20 02:33:57.069+0000: Rotate log first start entry @ pos=24206906 out of [75=Start[75,xid=GlobalId[NEOKERNL|-78055159120627620|77], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2012-08-20 02:33:55.175+0000/1345430035175]]
+2012-08-20 02:33:57.506+0000: Rotate: old log scanned, newLog @ pos=2007547
+2012-08-20 02:33:57.509+0000: Log rotated, newLog @ pos=2007547, version 7 and last tx 74
+2012-08-20 02:33:58.840+0000: GC Monitor: Application threads blocked for an additional 733ms [total block time: 41.258s]
+2012-08-20 02:34:00.233+0000: GC Monitor: Application threads blocked for an additional 440ms [total block time: 41.698s]
+2012-08-20 02:34:02.013+0000: GC Monitor: Application threads blocked for an additional 848ms [total block time: 42.546s]
+2012-08-20 02:34:03.234+0000: GC Monitor: Application threads blocked for an additional 562ms [total block time: 43.108s]
+2012-08-20 02:34:04.363+0000: GC Monitor: Application threads blocked for an additional 522ms [total block time: 43.63s]
+2012-08-20 02:34:05.611+0000: GC Monitor: Application threads blocked for an additional 530ms [total block time: 44.16s]
+2012-08-20 02:34:07.057+0000: GC Monitor: Application threads blocked for an additional 559ms [total block time: 44.719s]
+2012-08-20 02:34:26.319+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.2] @ version=7 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.1 from position 26214492
+2012-08-20 02:34:26.319+0000: Rotate log first start entry @ pos=26214434 out of [30620=Start[30620,xid=GlobalId[NEOKERNL|-6972122170017144191|30622], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2012-08-20 02:34:25.689+0000/1345430065689]]
+2012-08-20 02:34:26.320+0000: Rotate: old log scanned, newLog @ pos=74
+2012-08-20 02:34:26.322+0000: Log rotated, newLog @ pos=74, version 8 and last tx 30619
+2012-08-20 02:34:58.091+0000: GC Monitor: Application threads blocked for an additional 483ms [total block time: 45.202s]
+2012-08-20 02:35:03.711+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.1] @ version=8 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.2 from position 26214416
+2012-08-20 02:35:03.712+0000: Rotate log first start entry @ pos=26214327 out of [118069=Start[118069,xid=GlobalId[NEOKERNL|3395218999095618452|118071], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2012-08-20 02:35:03.221+0000/1345430103221]]
+2012-08-20 02:35:03.716+0000: Rotate: old log scanned, newLog @ pos=105
+2012-08-20 02:35:03.722+0000: Log rotated, newLog @ pos=105, version 9 and last tx 118068
+2012-08-20 02:35:27.853+0000: Rotating [/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.2] @ version=9 to /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log.1 from position 26214550
+2012-08-20 02:35:27.853+0000: Rotate log first start entry @ pos=26214492 out of [210749=Start[210749,xid=GlobalId[NEOKERNL|-5395799107821837549|210751], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2012-08-20 02:35:27.646+0000/1345430127646]]
+2012-08-20 02:35:27.854+0000: Rotate: old log scanned, newLog @ pos=74
+2012-08-20 02:35:27.857+0000: Log rotated, newLog @ pos=74, version 10 and last tx 210748
+2012-08-20 02:35:42.634+0000: GC Monitor: Application threads blocked for an additional 697ms [total block time: 45.899s]
+2012-08-20 02:35:45.115+0000: GC Monitor: Application threads blocked for an additional 651ms [total block time: 46.55s]
+2012-08-20 02:35:46.462+0000: GC Monitor: Application threads blocked for an additional 790ms [total block time: 47.34s]
+2012-08-20 02:35:47.301+0000: GC Monitor: Application threads blocked for an additional 527ms [total block time: 47.867s]
+2012-08-20 02:35:48.337+0000: GC Monitor: Application threads blocked for an additional 633ms [total block time: 48.5s]
+2012-08-20 02:35:49.115+0000: GC Monitor: Application threads blocked for an additional 561ms [total block time: 49.061s]
+2012-08-20 02:35:50.256+0000: GC Monitor: Application threads blocked for an additional 805ms [total block time: 49.866s]
+2012-08-20 02:35:59.217+0000: GC Monitor: Application threads blocked for an additional 1221ms [total block time: 51.087s]
+2012-08-20 02:36:02.953+0000: GC Monitor: Application threads blocked for an additional 569ms [total block time: 51.656s]
+2012-08-20 02:36:08.903+0000: GC Monitor: Application threads blocked for an additional 1131ms [total block time: 52.787s]
+2012-08-20 02:36:09.991+0000: GC Monitor: Application threads blocked for an additional 671ms [total block time: 53.458s]
+2012-08-20 02:36:10.810+0000: GC Monitor: Application threads blocked for an additional 517ms [total block time: 53.975s]
+2012-08-20 02:36:11.785+0000: GC Monitor: Application threads blocked for an additional 527ms [total block time: 54.502s]
+2012-08-20 02:36:12.634+0000: GC Monitor: Application threads blocked for an additional 648ms [total block time: 55.15s]
+2012-08-20 02:36:20.991+0000: GC Monitor: Application threads blocked for an additional 1621ms [total block time: 56.771s]
+2012-08-20 02:36:25.047+0000: GC Monitor: Application threads blocked for an additional 637ms [total block time: 57.408s]
+2012-08-20 02:36:28.085+0000: GC Monitor: Application threads blocked for an additional 576ms [total block time: 57.984s]
+2012-08-20 02:36:29.100+0000: GC Monitor: Application threads blocked for an additional 596ms [total block time: 58.58s]
+2012-08-20 02:36:29.864+0000: GC Monitor: Application threads blocked for an additional 554ms [total block time: 59.134s]
+2012-08-20 02:36:30.989+0000: GC Monitor: Application threads blocked for an additional 715ms [total block time: 59.849s]
+2012-08-20 02:36:31.898+0000: GC Monitor: Application threads blocked for an additional 607ms [total block time: 60.456s]
+2012-08-20 02:36:33.662+0000: GC Monitor: Application threads blocked for an additional 629ms [total block time: 61.085s]
+2012-08-20 02:36:35.781+0000: GC Monitor: Application threads blocked for an additional 499ms [total block time: 61.584s]
+2012-08-20 02:36:49.899+0000: GC Monitor: Application threads blocked for an additional 736ms [total block time: 62.32s]
+2012-08-20 02:36:55.160+0000: Stopping - database is now unavailable
+2012-08-20 02:36:55.167+0000: TM shutting down
+2012-08-20 02:36:55.186+0000: Closed log /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/index/lucene.log
+2012-08-20 02:36:55.221+0000: GC Monitor stopped. 
+2012-08-20 02:36:55.527+0000: Closed log /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/data/nioneo_logical.log
+2012-08-20 02:36:55.571+0000: NeoStore closed
+2012-08-20 02:36:55.571+0000: --- SHUTDOWN diagnostics START ---
+2012-08-20 02:36:55.571+0000: --- SHUTDOWN diagnostics END ---
