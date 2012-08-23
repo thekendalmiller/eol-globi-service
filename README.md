@@ -20,4 +20,4 @@ curl -X POST -H Accept:application/json -H Content-Type:application/json -d '{"q
 
 Example 4. List of predator taxon name, and their related study, that did not match against an external taxonomy.
 
-curl -X POST -H Accept:application/json -H Content-Type:application/json -d '{"query": "START study = node:studies(\"*:*\") MATCH study-[:COLLECTED]->specimen-[:CLASSIFIED_AS]->taxon WHERE not(has(taxon.externalId)) RETURN distinct taxon.name, study.title"}' -v http://ec2-50-112-48-206.us-west-2.compute.amazonaws.com:7474/db/data/ext/CypherPlugin/graphdb/execute_query   
+curl -X POST -H Accept:application/json -H Content-Type:application/json -d '{"query": "START study = node:studies(\"*:*\") MATCH study-[:COLLECTED]->specimen-[:CLASSIFIED_AS]->taxon WHERE not(has(taxon.externalId)) RETURN distinct taxon.name, study.title"}' -v http://ec2-50-112-48-206.us-west-2.compute.amazonaws.com:7474/db/data/ext/CypherPlugin/graphdb/execute_query  
