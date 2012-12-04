@@ -1,7 +1,11 @@
 trophic-graph-server
 ====================
 
-server hosting trophic graph data
+Server hosting trophic graph data.
+
+You can easily interact with an instance of this server by going to http://tinyurl.com/trophicgraph or http://ec2-50-112-48-206.us-west-2.compute.amazonaws.com:7474/webadmin/ . 
+
+In addition, you can query the graph database through a REST interface. Please see the examples below on how to use cURL to query the trophic data.
 
 Examples of using REST / Cypher / cURL to query data:
 
