@@ -8,7 +8,7 @@ git clean -f -d
 
 git pull --rebase
 
-sudo sh neo4j-community-1.7.2/bin/neo4j install -u ec2-user
+sudo sh neo4j-community-1.9.M03/bin/neo4j install -u ec2-user
 
 service neo4j-service start
 
