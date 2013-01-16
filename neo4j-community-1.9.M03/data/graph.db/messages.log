@@ -1,0 +1,1020 @@
+2013-01-16 01:18:01.700+0000: --- INITIALIZED diagnostics START ---
+2013-01-16 01:18:01.710+0000: Neo4j Kernel properties:
+    neostore.propertystore.db.mapped_memory=839M
+    neostore.nodestore.db.mapped_memory=233M
+    neostore.relationshipstore.db.mapped_memory=1028M
+    neostore.propertystore.db.strings.mapped_memory=713M
+    store_dir=./data
+    keep_logical_logs=1M size
+    neostore.propertystore.db.arrays.mapped_memory=809M
+2013-01-16 01:18:01.714+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2013-01-16 01:18:01.715+0000: System memory information:
+    Total Physical memory: 8.00 GB
+    Free Physical memory: 2.81 GB
+    Committed virtual memory: 2.68 GB
+    Total swap space: 64.00 MB
+    Free swap space: 64.00 MB
+2013-01-16 01:18:01.724+0000: JVM memory information:
+    Free  memory: 71.61 MB
+    Total memory: 81.06 MB
+    Max   memory: 123.94 MB
+    Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+    Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=475.56 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: Par Eden Space (Heap memory): committed=16.63 MB, used=9.46 MB, max=16.63 MB, threshold=?
+    Memory Pool: Par Survivor Space (Heap memory): committed=2.06 MB, used=0.00 B, max=2.06 MB, threshold=?
+    Memory Pool: CMS Old Gen (Heap memory): committed=62.38 MB, used=0.00 B, max=105.25 MB, threshold=0.00 B
+    Memory Pool: CMS Perm Gen (Non-heap memory): committed=20.75 MB, used=8.49 MB, max=82.00 MB, threshold=0.00 B
+2013-01-16 01:18:01.732+0000: Operating system information:
+    Operating System: Mac OS X; version: 10.7.5; arch: x86_64; cpus: 2
+    Max number of file descriptors: 10240
+    Number of open file descriptors: 32
+    Process id: 7451@yellow.local
+    Byte order: LITTLE_ENDIAN
+    Local timezone: America/Los_Angeles
+2013-01-16 01:18:01.743+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Apple Inc.
+    VM Version: 20.12-b01-434
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: []
+2013-01-16 01:18:01.744+0000: Java classpath:
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar
+     [bootstrap] /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaRuntimeSupport.framework/Versions/A/Resources/Java/JavaRuntimeSupport.jar
+     [loader.1] file:/System/Library/Java/Extensions/dns_sd.jar
+     [loader.1] file:/System/Library/Java/Extensions/j3dutils.jar
+     [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+     [loader.1] file:/System/Library/Java/Extensions/jai_core.jar
+     [loader.1] file:/System/Library/Java/Extensions/vecmath.jar
+     [loader.1] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/jai_codec.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar
+     [loader.1] file:/Library/Java/Extensions/mysql-connector-java-3.0.7-stable-bin.jar
+     [loader.1] file:/System/Library/Java/Extensions/libJ3D.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar
+     [loader.1] file:/System/Library/Java/Extensions/QTJava.zip
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jce.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+     [classpath + loader.0] file:/Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target/trophic-graph-1.0-SNAPSHOT-all.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+     [loader.1] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+     [loader.1] file:/System/Library/Java/Extensions/j3daudio.jar
+     [loader.1] file:/Volumes/Data/Users/jorrit/Library/Java/Extensions/libJNPRAuthKit.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar
+     [loader.1] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+2013-01-16 01:18:01.747+0000: Library path:
+    /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target
+    /Volumes/Data/Users/jorrit/Library/Java/Extensions
+    /Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+2013-01-16 01:18:01.748+0000: System.properties:
+    sun.boot.library.path = /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries
+    awt.nativeDoubleBuffering = true
+    gopherProxySet = false
+    mrj.build = 11M3909
+    path.separator = :
+    file.encoding.pkg = sun.io
+    sun.java.launcher = SUN_STANDARD
+    user.country = US
+    sun.os.patch.level = unknown
+    user.dir = /Volumes/Data/Users/jorrit/dev/trophic/trophic-graph/target
+    sun.jnu.encoding = MacRoman
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    user.home = /Volumes/Data/Users/jorrit
+    user.timezone = America/Los_Angeles
+    file.encoding = MacRoman
+    user.name = jorrit
+    sun.java.command = trophic-graph-1.0-SNAPSHOT-all.jar -Xmx2G
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = apple.awt.CToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    mrj.version = 1070.1.6.0_37-434
+    socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    sun.cpu.isalist = 
+2013-01-16 01:18:01.750+0000: Network information:
+    Interface en1:
+        address: fe80:0:0:0:223:6cff:fe82:c01b%5
+        address: 192.168.1.113
+    Interface lo0:
+        address: 0:0:0:0:0:0:0:1
+        address: fe80:0:0:0:0:0:0:1%1
+        address: 127.0.0.1
+2013-01-16 01:18:01.753+0000: --- INITIALIZED diagnostics END ---
+2013-01-16 01:18:01.765+0000: Creating new db @ ./data/neostore
+2013-01-16 01:18:01.808+0000: [./data/neostore.nodestore.db] brickCount=0 brickSize=2443176b mappedMem=244318208b (storeSize=0b)
+2013-01-16 01:18:01.814+0000: ./data/neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+2013-01-16 01:18:01.832+0000: [./data/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-01-16 01:18:01.836+0000: [./data/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-01-16 01:18:01.836+0000: ./data/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-01-16 01:18:01.839+0000: ./data/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-01-16 01:18:01.841+0000: [./data/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-01-16 01:18:01.842+0000: [./data/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-01-16 01:18:01.842+0000: [./data/neostore.propertystore.db.strings] brickCount=0 brickSize=747520b mappedMem=747634688b (storeSize=128b)
+2013-01-16 01:18:01.843+0000: [./data/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-01-16 01:18:01.845+0000: [./data/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-01-16 01:18:01.847+0000: [./data/neostore.propertystore.db.arrays] brickCount=0 brickSize=848256b mappedMem=848297984b (storeSize=128b)
+2013-01-16 01:18:01.850+0000: [./data/neostore.propertystore.db] brickCount=0 brickSize=8797534b mappedMem=879755264b (storeSize=0b)
+2013-01-16 01:18:01.856+0000: [./data/neostore.relationshipstore.db] brickCount=0 brickSize=10779351b mappedMem=1077936128b (storeSize=0b)
+2013-01-16 01:18:01.856+0000: [./data/neostore.nodestore.db] brickCount=0 brickSize=244314b mappedMem=244318208b (storeSize=9b)
+2013-01-16 01:18:01.858+0000: [./data/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-01-16 01:18:01.863+0000: ./data/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-01-16 01:18:01.864+0000: ./data/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-01-16 01:18:01.865+0000: ./data/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-01-16 01:18:01.866+0000: ./data/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2013-01-16 01:18:01.866+0000: ./data/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2013-01-16 01:18:01.867+0000: ./data/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-01-16 01:18:01.868+0000: ./data/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2013-01-16 01:18:01.870+0000: ./data/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2013-01-16 01:18:01.871+0000: ./data/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2013-01-16 01:18:01.873+0000: ./data/neostore hit=0 miss=8 switches=0 ooe=0
+2013-01-16 01:18:01.878+0000: [./data/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-01-16 01:18:01.879+0000: [./data/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-01-16 01:18:01.880+0000: [./data/neostore.propertystore.db.strings] brickCount=0 brickSize=747520b mappedMem=747634688b (storeSize=128b)
+2013-01-16 01:18:01.880+0000: [./data/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-01-16 01:18:01.881+0000: [./data/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-01-16 01:18:01.881+0000: [./data/neostore.propertystore.db.arrays] brickCount=0 brickSize=848256b mappedMem=848297984b (storeSize=128b)
+2013-01-16 01:18:01.882+0000: [./data/neostore.propertystore.db] brickCount=0 brickSize=8797534b mappedMem=879755264b (storeSize=0b)
+2013-01-16 01:18:01.883+0000: [./data/neostore.relationshipstore.db] brickCount=0 brickSize=10779351b mappedMem=1077936128b (storeSize=0b)
+2013-01-16 01:18:01.883+0000: [./data/neostore.nodestore.db] brickCount=0 brickSize=244314b mappedMem=244318208b (storeSize=9b)
+2013-01-16 01:18:01.884+0000: [./data/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-01-16 01:18:01.903+0000: Opened logical log [./data/nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2013-01-16 01:18:01.917+0000: TM new log: tm_tx_log.1
+2013-01-16 01:18:01.918+0000: TM non resolved transactions found in ./data/tm_tx_log.1
+2013-01-16 01:18:01.922+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-01-16 01:18:01.957+0000: Opened logical log [./data/index/lucene.log.1] version=0, lastTxId=1 (clean)
+2013-01-16 01:18:01.962+0000: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2013-01-16 01:18:01.962+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1358299081766, id:3594495374889787842, store version: 13561656364791302]
+2013-01-16 01:18:01.965+0000: Kernel version: neo4j-kernel 1.9.M03
+2013-01-16 01:18:01.965+0000: Neo4j component versions:
+2013-01-16 01:18:01.966+0000:   neo4j-kernel 1.9.M03
+2013-01-16 01:18:01.966+0000: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2013-01-16 01:18:01.968+0000: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2013-01-16 01:18:01.969+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-01-16 01:18:01.969+0000: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2013-01-16 01:18:01.970+0000: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2013-01-16 01:18:01.970+0000: Id usage:
+    Id usage:
+      NodeStore: used=1 high=0
+      RelationshipStore: used=0 high=-1
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=0 high=-1
+      PropertyIndexStore: used=0 high=-1
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2013-01-16 01:18:01.971+0000: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2013-01-16 01:18:01.971+0000: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-01-16 01:18:01.971+0000: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-01-16 01:18:01.971+0000: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-01-16 01:18:01.972+0000: Disk space on partition (Total / Free / Free %): 499430719488 / 37569093632 / 92
+Storage files: (filename : modification date - size)
+      active_tx_log: 2013-01-15T17:18:01-0800 - 11.00 B
+      index:
+        lucene-store.db: 2013-01-15T17:18:01-0800 - 40.00 B
+        lucene.log.1: 2013-01-15T17:18:01-0800 - 16.00 B
+        lucene.log.active: 2013-01-15T17:18:01-0800 - 4.00 B
+      - Total: 2013-01-15T17:18:01-0800 - 60.00 B
+      lock: 2013-01-15T17:18:01-0800 - 0.00 B
+      messages.log: 2013-01-15T17:18:01-0800 - 13.01 kB
+      neostore: 2013-01-15T17:18:01-0800 - 54.00 B
+      neostore.id: 2013-01-15T17:18:01-0800 - 9.00 B
+      neostore.nodestore.db: 2013-01-15T17:18:01-0800 - 9.00 B
+      neostore.nodestore.db.id: 2013-01-15T17:18:01-0800 - 9.00 B
+      neostore.propertystore.db: 2013-01-15T17:18:01-0800 - 0.00 B
+      neostore.propertystore.db.arrays: 2013-01-15T17:18:01-0800 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-01-15T17:18:01-0800 - 9.00 B
+      neostore.propertystore.db.id: 2013-01-15T17:18:01-0800 - 9.00 B
+      neostore.propertystore.db.index: 2013-01-15T17:18:01-0800 - 0.00 B
+      neostore.propertystore.db.index.id: 2013-01-15T17:18:01-0800 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-01-15T17:18:01-0800 - 38.00 B
+      neostore.propertystore.db.index.keys.id: 2013-01-15T17:18:01-0800 - 9.00 B
+      neostore.propertystore.db.strings: 2013-01-15T17:18:01-0800 - 128.00 B
+      neostore.propertystore.db.strings.id: 2013-01-15T17:18:01-0800 - 9.00 B
+      neostore.relationshipstore.db: 2013-01-15T17:18:01-0800 - 0.00 B
+      neostore.relationshipstore.db.id: 2013-01-15T17:18:01-0800 - 9.00 B
+      neostore.relationshiptypestore.db: 2013-01-15T17:18:01-0800 - 0.00 B
+      neostore.relationshiptypestore.db.id: 2013-01-15T17:18:01-0800 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-01-15T17:18:01-0800 - 38.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-01-15T17:18:01-0800 - 9.00 B
+      nioneo_logical.log.1: 2013-01-15T17:18:01-0800 - 16.00 B
+      nioneo_logical.log.active: 2013-01-15T17:18:01-0800 - 4.00 B
+      tm_tx_log.1: 2013-01-15T17:18:01-0800 - 0.00 B
+2013-01-16 01:18:01.985+0000: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-01-16 01:18:01.990+0000: Started - database is now available
+2013-01-16 01:18:01.999+0000: GC Monitor started. 
+2013-01-16 01:19:09.893+0000: Rotating [./data/nioneo_logical.log.1] @ version=0 to ./data/nioneo_logical.log.2 from position 26214402
+2013-01-16 01:19:09.893+0000: Rotate log first start entry @ pos=26214344 out of [83889=Start[83889,xid=GlobalId[NEOKERNL|8183587533166746876|83891], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2013-01-16 01:19:09.739+0000/1358299149739]]
+2013-01-16 01:19:09.895+0000: Rotate: old log scanned, newLog @ pos=74
+2013-01-16 01:19:09.897+0000: Log rotated, newLog @ pos=74, version 1 and last tx 83888
+2013-01-16 01:19:30.689+0000: Rotating [./data/nioneo_logical.log.2] @ version=1 to ./data/nioneo_logical.log.1 from position 26214410
+2013-01-16 01:19:30.689+0000: Rotate log first start entry @ pos=26214321 out of [181870=Start[181870,xid=GlobalId[NEOKERNL|9080274820679010970|181872], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2013-01-16 01:19:30.155+0000/1358299170155]]
+2013-01-16 01:19:30.690+0000: Rotate: old log scanned, newLog @ pos=105
+2013-01-16 01:19:30.695+0000: Log rotated, newLog @ pos=105, version 2 and last tx 181869
+2013-01-16 01:20:53.096+0000: Rotating [./data/nioneo_logical.log.1] @ version=2 to ./data/nioneo_logical.log.2 from position 26214516
+2013-01-16 01:20:53.096+0000: Rotate log first start entry @ pos=26214458 out of [275017=Start[275017,xid=GlobalId[NEOKERNL|-9035153143617204253|275019], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2013-01-16 01:20:52.901+0000/1358299252901]]
+2013-01-16 01:20:53.097+0000: Rotate: old log scanned, newLog @ pos=74
+2013-01-16 01:20:53.102+0000: Log rotated, newLog @ pos=74, version 3 and last tx 275016
+2013-01-16 01:22:10.925+0000: Rotating [./data/nioneo_logical.log.2] @ version=3 to ./data/nioneo_logical.log.1 from position 26214539
+2013-01-16 01:22:10.954+0000: Rotate log first start entry @ pos=26214481 out of [365663=Start[365663,xid=GlobalId[NEOKERNL|6008173118159498753|365665], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2013-01-16 01:22:10.177+0000/1358299330177]]
+2013-01-16 01:22:10.955+0000: Rotate: old log scanned, newLog @ pos=74
+2013-01-16 01:22:10.959+0000: Log rotated, newLog @ pos=74, version 4 and last tx 365662
+2013-01-16 01:23:29.438+0000: Rotating [./data/nioneo_logical.log.1] @ version=4 to ./data/nioneo_logical.log.2 from position 26214490
+2013-01-16 01:23:29.442+0000: Rotate log first start entry @ pos=26214432 out of [455907=Start[455907,xid=GlobalId[NEOKERNL|-3540237889955325651|455909], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2013-01-16 01:23:28.768+0000/1358299408768]]
+2013-01-16 01:23:29.443+0000: Rotate: old log scanned, newLog @ pos=74
+2013-01-16 01:23:29.449+0000: Log rotated, newLog @ pos=74, version 5 and last tx 455906
+2013-01-16 01:24:46.186+0000: Rotating [./data/nioneo_logical.log.2] @ version=5 to ./data/nioneo_logical.log.1 from position 26214548
+2013-01-16 01:24:46.186+0000: Rotate log first start entry @ pos=26214490 out of [546226=Start[546226,xid=GlobalId[NEOKERNL|-7449383838971455685|546228], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2013-01-16 01:24:45.369+0000/1358299485369]]
+2013-01-16 01:24:46.187+0000: Rotate: old log scanned, newLog @ pos=74
+2013-01-16 01:24:46.192+0000: Log rotated, newLog @ pos=74, version 6 and last tx 546225
+2013-01-16 01:25:42.669+0000: GC Monitor: Application threads blocked for an additional 131ms [total block time: 0.131s]
+2013-01-16 01:25:47.500+0000: GC Monitor: Application threads blocked for an additional 391ms [total block time: 0.522s]
+2013-01-16 01:25:53.432+0000: GC Monitor: Application threads blocked for an additional 580ms [total block time: 1.102s]
+2013-01-16 01:26:49.096+0000: GC Monitor: Application threads blocked for an additional 106ms [total block time: 1.208s]
+2013-01-16 01:27:14.042+0000: Rotating [./data/nioneo_logical.log.1] @ version=6 to ./data/nioneo_logical.log.2 from position 26214521
+2013-01-16 01:27:14.043+0000: Rotate log first start entry @ pos=26214463 out of [639698=Start[639698,xid=GlobalId[NEOKERNL|7576137846327313982|639700], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2013-01-16 01:27:12.797+0000/1358299632797]]
+2013-01-16 01:27:14.044+0000: Rotate: old log scanned, newLog @ pos=74
+2013-01-16 01:27:14.049+0000: Log rotated, newLog @ pos=74, version 7 and last tx 639697
+2013-01-16 01:27:46.435+0000: GC Monitor: Application threads blocked for an additional 104ms [total block time: 1.312s]
+2013-01-16 01:28:00.267+0000: Rotating [./data/nioneo_logical.log.2] @ version=7 to ./data/nioneo_logical.log.1 from position 26214425
+2013-01-16 01:28:00.268+0000: Rotate log first start entry @ pos=26214155 out of [732981=Start[732981,xid=GlobalId[NEOKERNL|-3855799134325321649|732983], BranchId[ 52 49 52 49 52 49 ],master=-1,me=-1,time=2013-01-16 01:27:59.611+0000/1358299679611]]
+2013-01-16 01:28:00.269+0000: Rotate: old log scanned, newLog @ pos=286
+2013-01-16 01:28:00.274+0000: Log rotated, newLog @ pos=286, version 8 and last tx 732980
+2013-01-16 01:28:38.352+0000: GC Monitor: Application threads blocked for an additional 723ms [total block time: 2.035s]
+2013-01-16 01:28:39.916+0000: GC Monitor: Application threads blocked for an additional 749ms [total block time: 2.784s]
+2013-01-16 01:28:40.771+0000: GC Monitor: Application threads blocked for an additional 754ms [total block time: 3.538s]
+2013-01-16 01:28:41.891+0000: GC Monitor: Application threads blocked for an additional 1020ms [total block time: 4.558s]
+2013-01-16 01:28:44.127+0000: GC Monitor: Application threads blocked for an additional 725ms [total block time: 5.283s]
+2013-01-16 01:28:56.884+0000: GC Monitor: Application threads blocked for an additional 816ms [total block time: 6.099s]
+2013-01-16 01:28:58.224+0000: GC Monitor: Application threads blocked for an additional 890ms [total block time: 6.989s]
+2013-01-16 01:28:59.067+0000: GC Monitor: Application threads blocked for an additional 743ms [total block time: 7.732s]
+2013-01-16 01:29:00.518+0000: GC Monitor: Application threads blocked for an additional 563ms [total block time: 8.295s]
+2013-01-16 01:29:01.944+0000: GC Monitor: Application threads blocked for an additional 615ms [total block time: 8.91s]
+2013-01-16 01:29:03.670+0000: GC Monitor: Application threads blocked for an additional 718ms [total block time: 9.628s]
+2013-01-16 01:29:46.388+0000: GC Monitor: Application threads blocked for an additional 792ms [total block time: 10.42s]
+2013-01-16 01:29:49.435+0000: GC Monitor: Application threads blocked for an additional 671ms [total block time: 11.091s]
+2013-01-16 01:29:50.253+0000: GC Monitor: Application threads blocked for an additional 718ms [total block time: 11.809s]
+2013-01-16 01:30:36.224+0000: GC Monitor: Application threads blocked for an additional 1261ms [total block time: 13.07s]
+2013-01-16 01:30:39.217+0000: GC Monitor: Application threads blocked for an additional 767ms [total block time: 13.837s]
+2013-01-16 01:30:40.042+0000: GC Monitor: Application threads blocked for an additional 725ms [total block time: 14.562s]
+2013-01-16 01:30:47.603+0000: GC Monitor: Application threads blocked for an additional 652ms [total block time: 15.214s]
+2013-01-16 01:31:24.558+0000: GC Monitor: Application threads blocked for an additional 107ms [total block time: 15.321s]
+2013-01-16 01:31:26.704+0000: GC Monitor: Application threads blocked for an additional 758ms [total block time: 16.079s]
+2013-01-16 01:31:27.766+0000: GC Monitor: Application threads blocked for an additional 962ms [total block time: 17.041s]
+2013-01-16 01:31:28.496+0000: GC Monitor: Application threads blocked for an additional 630ms [total block time: 17.671s]
+2013-01-16 01:31:35.203+0000: GC Monitor: Application threads blocked for an additional 625ms [total block time: 18.296s]
+2013-01-16 01:32:15.615+0000: GC Monitor: Application threads blocked for an additional 940ms [total block time: 19.236s]
+2013-01-16 01:32:16.433+0000: GC Monitor: Application threads blocked for an additional 718ms [total block time: 19.954s]
+2013-01-16 01:32:17.959+0000: GC Monitor: Application threads blocked for an additional 716ms [total block time: 20.67s]
+2013-01-16 01:33:01.733+0000: GC Monitor: Application threads blocked for an additional 884ms [total block time: 21.554s]
+2013-01-16 01:33:02.508+0000: GC Monitor: Application threads blocked for an additional 674ms [total block time: 22.228s]
+2013-01-16 01:33:03.571+0000: GC Monitor: Application threads blocked for an additional 862ms [total block time: 23.09s]
+2013-01-16 01:33:04.328+0000: GC Monitor: Application threads blocked for an additional 657ms [total block time: 23.747s]
+2013-01-16 01:33:05.687+0000: GC Monitor: Application threads blocked for an additional 851ms [total block time: 24.598s]
+2013-01-16 01:33:13.147+0000: GC Monitor: Application threads blocked for an additional 685ms [total block time: 25.283s]
+2013-01-16 01:33:50.654+0000: GC Monitor: Application threads blocked for an additional 864ms [total block time: 26.147s]
+2013-01-16 01:33:51.713+0000: GC Monitor: Application threads blocked for an additional 958ms [total block time: 27.105s]
+2013-01-16 01:33:52.440+0000: GC Monitor: Application threads blocked for an additional 627ms [total block time: 27.732s]
+2013-01-16 01:33:53.419+0000: GC Monitor: Application threads blocked for an additional 879ms [total block time: 28.611s]
+2013-01-16 01:33:54.109+0000: GC Monitor: Application threads blocked for an additional 590ms [total block time: 29.201s]
+2013-01-16 01:34:40.601+0000: GC Monitor: Application threads blocked for an additional 631ms [total block time: 29.832s]
+2013-01-16 01:34:43.067+0000: GC Monitor: Application threads blocked for an additional 976ms [total block time: 30.808s]
+2013-01-16 01:34:44.254+0000: GC Monitor: Application threads blocked for an additional 986ms [total block time: 31.794s]
+2013-01-16 01:34:45.362+0000: GC Monitor: Application threads blocked for an additional 1008ms [total block time: 32.802s]
+2013-01-16 01:34:46.148+0000: GC Monitor: Application threads blocked for an additional 686ms [total block time: 33.488s]
+2013-01-16 01:34:47.160+0000: GC Monitor: Application threads blocked for an additional 912ms [total block time: 34.4s]
+2013-01-16 01:34:48.005+0000: GC Monitor: Application threads blocked for an additional 744ms [total block time: 35.144s]
+2013-01-16 01:34:49.155+0000: GC Monitor: Application threads blocked for an additional 1050ms [total block time: 36.194s]
+2013-01-16 01:34:50.701+0000: GC Monitor: Application threads blocked for an additional 741ms [total block time: 36.935s]
+2013-01-16 01:35:39.384+0000: GC Monitor: Application threads blocked for an additional 465ms [total block time: 37.4s]
+2013-01-16 01:35:42.165+0000: GC Monitor: Application threads blocked for an additional 837ms [total block time: 38.237s]
+2013-01-16 01:35:42.987+0000: GC Monitor: Application threads blocked for an additional 717ms [total block time: 38.954s]
+2013-01-16 01:35:44.086+0000: GC Monitor: Application threads blocked for an additional 999ms [total block time: 39.953s]
+2013-01-16 01:35:44.787+0000: GC Monitor: Application threads blocked for an additional 601ms [total block time: 40.554s]
+2013-01-16 01:35:45.927+0000: GC Monitor: Application threads blocked for an additional 1040ms [total block time: 41.594s]
+2013-01-16 01:35:46.759+0000: GC Monitor: Application threads blocked for an additional 731ms [total block time: 42.325s]
+2013-01-16 01:35:47.796+0000: GC Monitor: Application threads blocked for an additional 937ms [total block time: 43.262s]
+2013-01-16 01:35:48.504+0000: GC Monitor: Application threads blocked for an additional 608ms [total block time: 43.87s]
+2013-01-16 01:35:50.353+0000: GC Monitor: Application threads blocked for an additional 834ms [total block time: 44.704s]
+2013-01-16 01:36:00.953+0000: GC Monitor: Application threads blocked for an additional 614ms [total block time: 45.318s]
+2013-01-16 01:36:33.000+0000: GC Monitor: Application threads blocked for an additional 112ms [total block time: 45.43s]
+2013-01-16 01:36:35.718+0000: GC Monitor: Application threads blocked for an additional 1361ms [total block time: 46.791s]
+2013-01-16 01:36:36.475+0000: GC Monitor: Application threads blocked for an additional 657ms [total block time: 47.448s]
+2013-01-16 01:36:38.313+0000: GC Monitor: Application threads blocked for an additional 1635ms [total block time: 49.083s]
+2013-01-16 01:36:39.299+0000: GC Monitor: Application threads blocked for an additional 886ms [total block time: 49.969s]
+2013-01-16 01:36:39.994+0000: GC Monitor: Application threads blocked for an additional 595ms [total block time: 50.564s]
+2013-01-16 01:36:41.133+0000: GC Monitor: Application threads blocked for an additional 1039ms [total block time: 51.603s]
+2013-01-16 01:36:41.961+0000: GC Monitor: Application threads blocked for an additional 728ms [total block time: 52.331s]
+2013-01-16 01:36:42.998+0000: GC Monitor: Application threads blocked for an additional 937ms [total block time: 53.268s]
+2013-01-16 01:36:43.821+0000: GC Monitor: Application threads blocked for an additional 723ms [total block time: 53.991s]
+2013-01-16 01:37:29.123+0000: GC Monitor: Application threads blocked for an additional 616ms [total block time: 54.607s]
+2013-01-16 01:37:32.340+0000: GC Monitor: Application threads blocked for an additional 922ms [total block time: 55.529s]
+2013-01-16 01:37:33.157+0000: GC Monitor: Application threads blocked for an additional 716ms [total block time: 56.245s]
+2013-01-16 01:37:34.163+0000: GC Monitor: Application threads blocked for an additional 906ms [total block time: 57.151s]
+2013-01-16 01:37:34.905+0000: GC Monitor: Application threads blocked for an additional 641ms [total block time: 57.792s]
+2013-01-16 01:37:36.063+0000: GC Monitor: Application threads blocked for an additional 1058ms [total block time: 58.85s]
+2013-01-16 01:37:36.945+0000: GC Monitor: Application threads blocked for an additional 782ms [total block time: 59.632s]
+2013-01-16 01:37:38.033+0000: GC Monitor: Application threads blocked for an additional 883ms [total block time: 60.515s]
+2013-01-16 01:37:38.967+0000: GC Monitor: Application threads blocked for an additional 793ms [total block time: 61.308s]
+2013-01-16 01:37:40.372+0000: GC Monitor: Application threads blocked for an additional 1203ms [total block time: 62.511s]
+2013-01-16 01:38:22.481+0000: GC Monitor: Application threads blocked for an additional 112ms [total block time: 62.623s]
+2013-01-16 01:38:27.510+0000: GC Monitor: Application threads blocked for an additional 1347ms [total block time: 63.97s]
+2013-01-16 01:38:29.194+0000: GC Monitor: Application threads blocked for an additional 1089ms [total block time: 65.059s]
+2013-01-16 01:38:30.097+0000: GC Monitor: Application threads blocked for an additional 803ms [total block time: 65.862s]
+2013-01-16 01:38:31.300+0000: GC Monitor: Application threads blocked for an additional 1103ms [total block time: 66.965s]
+2013-01-16 01:38:32.113+0000: GC Monitor: Application threads blocked for an additional 713ms [total block time: 67.678s]
+2013-01-16 01:38:33.221+0000: GC Monitor: Application threads blocked for an additional 1008ms [total block time: 68.686s]
+2013-01-16 01:38:34.034+0000: GC Monitor: Application threads blocked for an additional 713ms [total block time: 69.399s]
+2013-01-16 01:38:35.656+0000: GC Monitor: Application threads blocked for an additional 1522ms [total block time: 70.921s]
+2013-01-16 01:38:37.074+0000: GC Monitor: Application threads blocked for an additional 1085ms [total block time: 72.006s]
+2013-01-16 01:39:04.335+0000: GC Monitor: Application threads blocked for an additional 124ms [total block time: 72.13s]
+2013-01-16 01:39:23.285+0000: GC Monitor: Application threads blocked for an additional 801ms [total block time: 72.931s]
+2013-01-16 01:39:25.506+0000: GC Monitor: Application threads blocked for an additional 1014ms [total block time: 73.945s]
+2013-01-16 01:39:26.324+0000: GC Monitor: Application threads blocked for an additional 718ms [total block time: 74.663s]
+2013-01-16 01:39:27.436+0000: GC Monitor: Application threads blocked for an additional 1012ms [total block time: 75.675s]
+2013-01-16 01:39:28.147+0000: GC Monitor: Application threads blocked for an additional 608ms [total block time: 76.283s]
+2013-01-16 01:39:29.188+0000: GC Monitor: Application threads blocked for an additional 941ms [total block time: 77.224s]
+2013-01-16 01:39:29.908+0000: GC Monitor: Application threads blocked for an additional 620ms [total block time: 77.844s]
+2013-01-16 01:39:30.965+0000: GC Monitor: Application threads blocked for an additional 957ms [total block time: 78.801s]
+2013-01-16 01:39:31.808+0000: GC Monitor: Application threads blocked for an additional 742ms [total block time: 79.543s]
+2013-01-16 01:39:32.952+0000: GC Monitor: Application threads blocked for an additional 943ms [total block time: 80.486s]
+2013-01-16 01:39:33.665+0000: GC Monitor: Application threads blocked for an additional 613ms [total block time: 81.099s]
+2013-01-16 01:39:34.864+0000: GC Monitor: Application threads blocked for an additional 1099ms [total block time: 82.198s]
+2013-01-16 01:39:35.749+0000: GC Monitor: Application threads blocked for an additional 747ms [total block time: 82.945s]
+2013-01-16 01:40:23.222+0000: GC Monitor: Application threads blocked for an additional 1352ms [total block time: 84.297s]
+2013-01-16 01:40:24.596+0000: GC Monitor: Application threads blocked for an additional 967ms [total block time: 85.264s]
+2013-01-16 01:40:25.911+0000: GC Monitor: Application threads blocked for an additional 1112ms [total block time: 86.376s]
+2013-01-16 01:40:26.797+0000: GC Monitor: Application threads blocked for an additional 786ms [total block time: 87.162s]
+2013-01-16 01:40:28.007+0000: GC Monitor: Application threads blocked for an additional 1110ms [total block time: 88.272s]
+2013-01-16 01:40:28.759+0000: GC Monitor: Application threads blocked for an additional 652ms [total block time: 88.924s]
+2013-01-16 01:40:29.897+0000: GC Monitor: Application threads blocked for an additional 1038ms [total block time: 89.962s]
+2013-01-16 01:40:30.813+0000: GC Monitor: Application threads blocked for an additional 815ms [total block time: 90.777s]
+2013-01-16 01:40:32.109+0000: GC Monitor: Application threads blocked for an additional 1196ms [total block time: 91.973s]
+2013-01-16 01:40:32.967+0000: GC Monitor: Application threads blocked for an additional 758ms [total block time: 92.731s]
+2013-01-16 01:40:38.227+0000: GC Monitor: Application threads blocked for an additional 861ms [total block time: 93.592s]
+2013-01-16 01:40:39.518+0000: GC Monitor: Application threads blocked for an additional 754ms [total block time: 94.346s]
+2013-01-16 01:40:40.255+0000: GC Monitor: Application threads blocked for an additional 637ms [total block time: 94.983s]
+2013-01-16 01:40:41.382+0000: GC Monitor: Application threads blocked for an additional 1026ms [total block time: 96.009s]
+2013-01-16 01:40:42.556+0000: GC Monitor: Application threads blocked for an additional 962ms [total block time: 96.971s]
+2013-01-16 01:40:43.705+0000: GC Monitor: Application threads blocked for an additional 811ms [total block time: 97.782s]
+2013-01-16 01:40:44.559+0000: GC Monitor: Application threads blocked for an additional 753ms [total block time: 98.535s]
+2013-01-16 01:40:45.709+0000: GC Monitor: Application threads blocked for an additional 1049ms [total block time: 99.584s]
+2013-01-16 01:40:46.574+0000: GC Monitor: Application threads blocked for an additional 765ms [total block time: 100.349s]
+2013-01-16 01:40:47.608+0000: GC Monitor: Application threads blocked for an additional 933ms [total block time: 101.282s]
+2013-01-16 01:40:48.459+0000: GC Monitor: Application threads blocked for an additional 749ms [total block time: 102.031s]
+2013-01-16 01:40:49.623+0000: GC Monitor: Application threads blocked for an additional 1064ms [total block time: 103.095s]
+2013-01-16 01:40:50.471+0000: GC Monitor: Application threads blocked for an additional 747ms [total block time: 103.842s]
+2013-01-16 01:40:51.647+0000: GC Monitor: Application threads blocked for an additional 1075ms [total block time: 104.917s]
+2013-01-16 01:40:52.546+0000: GC Monitor: Application threads blocked for an additional 791ms [total block time: 105.708s]
+2013-01-16 01:40:53.708+0000: GC Monitor: Application threads blocked for an additional 953ms [total block time: 106.661s]
+2013-01-16 01:40:54.897+0000: GC Monitor: Application threads blocked for an additional 988ms [total block time: 107.649s]
+2013-01-16 01:40:55.779+0000: GC Monitor: Application threads blocked for an additional 782ms [total block time: 108.431s]
+2013-01-16 01:40:56.915+0000: GC Monitor: Application threads blocked for an additional 935ms [total block time: 109.366s]
+2013-01-16 01:40:58.139+0000: GC Monitor: Application threads blocked for an additional 906ms [total block time: 110.272s]
+2013-01-16 01:40:59.058+0000: GC Monitor: Application threads blocked for an additional 787ms [total block time: 111.059s]
+2013-01-16 01:41:00.183+0000: GC Monitor: Application threads blocked for an additional 816ms [total block time: 111.875s]
+2013-01-16 01:43:36.475+0000: GC Monitor: Application threads blocked for an additional 2100ms [total block time: 113.975s]
+2013-01-16 01:43:38.555+0000: GC Monitor: Application threads blocked for an additional 994ms [total block time: 114.969s]
+2013-01-16 01:44:19.475+0000: GC Monitor: Application threads blocked for an additional 790ms [total block time: 115.759s]
+2013-01-16 01:44:24.074+0000: GC Monitor: Application threads blocked for an additional 2502ms [total block time: 118.261s]
+2013-01-16 01:44:24.952+0000: GC Monitor: Application threads blocked for an additional 742ms [total block time: 119.003s]
+2013-01-16 01:44:26.083+0000: GC Monitor: Application threads blocked for an additional 1031ms [total block time: 120.034s]
+2013-01-16 01:44:26.831+0000: GC Monitor: Application threads blocked for an additional 647ms [total block time: 120.681s]
+2013-01-16 01:44:27.861+0000: GC Monitor: Application threads blocked for an additional 930ms [total block time: 121.611s]
+2013-01-16 01:44:28.743+0000: GC Monitor: Application threads blocked for an additional 782ms [total block time: 122.393s]
+2013-01-16 01:44:35.254+0000: GC Monitor: Application threads blocked for an additional 1154ms [total block time: 123.547s]
+2013-01-16 01:45:14.745+0000: GC Monitor: Application threads blocked for an additional 713ms [total block time: 124.26s]
+2013-01-16 01:45:17.817+0000: GC Monitor: Application threads blocked for an additional 953ms [total block time: 125.213s]
+2013-01-16 01:45:18.645+0000: GC Monitor: Application threads blocked for an additional 728ms [total block time: 125.941s]
+2013-01-16 01:45:19.637+0000: GC Monitor: Application threads blocked for an additional 892ms [total block time: 126.833s]
+2013-01-16 01:45:20.464+0000: GC Monitor: Application threads blocked for an additional 727ms [total block time: 127.56s]
+2013-01-16 01:45:21.606+0000: GC Monitor: Application threads blocked for an additional 1042ms [total block time: 128.602s]
+2013-01-16 01:45:22.370+0000: GC Monitor: Application threads blocked for an additional 646ms [total block time: 129.248s]
+2013-01-16 01:45:23.480+0000: GC Monitor: Application threads blocked for an additional 1010ms [total block time: 130.258s]
+2013-01-16 01:45:24.322+0000: GC Monitor: Application threads blocked for an additional 741ms [total block time: 130.999s]
+2013-01-16 01:45:25.447+0000: GC Monitor: Application threads blocked for an additional 1025ms [total block time: 132.024s]
+2013-01-16 01:45:30.455+0000: GC Monitor: Application threads blocked for an additional 864ms [total block time: 132.888s]
+2013-01-16 01:46:17.904+0000: GC Monitor: Application threads blocked for an additional 1057ms [total block time: 133.945s]
+2013-01-16 01:46:19.903+0000: GC Monitor: Application threads blocked for an additional 1780ms [total block time: 135.725s]
+2013-01-16 01:46:21.089+0000: GC Monitor: Application threads blocked for an additional 1086ms [total block time: 136.811s]
+2013-01-16 01:46:21.945+0000: GC Monitor: Application threads blocked for an additional 756ms [total block time: 137.567s]
+2013-01-16 01:46:23.101+0000: GC Monitor: Application threads blocked for an additional 1055ms [total block time: 138.622s]
+2013-01-16 01:46:23.947+0000: GC Monitor: Application threads blocked for an additional 745ms [total block time: 139.367s]
+2013-01-16 01:46:25.101+0000: GC Monitor: Application threads blocked for an additional 1054ms [total block time: 140.421s]
+2013-01-16 01:46:25.953+0000: GC Monitor: Application threads blocked for an additional 733ms [total block time: 141.154s]
+2013-01-16 01:46:27.008+0000: GC Monitor: Application threads blocked for an additional 955ms [total block time: 142.109s]
+2013-01-16 01:46:27.882+0000: GC Monitor: Application threads blocked for an additional 774ms [total block time: 142.883s]
+2013-01-16 01:47:09.119+0000: GC Monitor: Application threads blocked for an additional 794ms [total block time: 143.677s]
+2013-01-16 01:47:11.729+0000: GC Monitor: Application threads blocked for an additional 1090ms [total block time: 144.767s]
+2013-01-16 01:47:12.910+0000: GC Monitor: Application threads blocked for an additional 852ms [total block time: 145.619s]
+2013-01-16 01:47:13.713+0000: GC Monitor: Application threads blocked for an additional 702ms [total block time: 146.321s]
+2013-01-16 01:47:14.756+0000: GC Monitor: Application threads blocked for an additional 943ms [total block time: 147.264s]
+2013-01-16 01:47:15.485+0000: GC Monitor: Application threads blocked for an additional 629ms [total block time: 147.893s]
+2013-01-16 01:47:16.585+0000: GC Monitor: Application threads blocked for an additional 984ms [total block time: 148.877s]
+2013-01-16 01:47:17.445+0000: GC Monitor: Application threads blocked for an additional 760ms [total block time: 149.637s]
+2013-01-16 01:47:18.677+0000: GC Monitor: Application threads blocked for an additional 1132ms [total block time: 150.769s]
+2013-01-16 01:47:19.482+0000: GC Monitor: Application threads blocked for an additional 705ms [total block time: 151.474s]
+2013-01-16 01:47:20.741+0000: GC Monitor: Application threads blocked for an additional 1058ms [total block time: 152.532s]
+2013-01-16 01:47:22.290+0000: GC Monitor: Application threads blocked for an additional 947ms [total block time: 153.479s]
+2013-01-16 01:47:23.673+0000: GC Monitor: Application threads blocked for an additional 731ms [total block time: 154.21s]
+2013-01-16 01:47:24.408+0000: GC Monitor: Application threads blocked for an additional 635ms [total block time: 154.845s]
+2013-01-16 01:47:25.453+0000: GC Monitor: Application threads blocked for an additional 945ms [total block time: 155.79s]
+2013-01-16 01:47:26.709+0000: GC Monitor: Application threads blocked for an additional 1156ms [total block time: 156.946s]
+2013-01-16 01:47:28.318+0000: GC Monitor: Application threads blocked for an additional 694ms [total block time: 157.64s]
+2013-01-16 01:47:30.680+0000: GC Monitor: Application threads blocked for an additional 802ms [total block time: 158.442s]
+2013-01-16 01:47:31.860+0000: GC Monitor: Application threads blocked for an additional 872ms [total block time: 159.314s]
+2013-01-16 01:47:33.002+0000: GC Monitor: Application threads blocked for an additional 823ms [total block time: 160.137s]
+2013-01-16 01:47:33.847+0000: GC Monitor: Application threads blocked for an additional 744ms [total block time: 160.881s]
+2013-01-16 01:47:34.990+0000: GC Monitor: Application threads blocked for an additional 1043ms [total block time: 161.924s]
+2013-01-16 01:47:35.832+0000: GC Monitor: Application threads blocked for an additional 741ms [total block time: 162.665s]
+2013-01-16 01:47:37.008+0000: GC Monitor: Application threads blocked for an additional 1076ms [total block time: 163.741s]
+2013-01-16 01:47:37.871+0000: GC Monitor: Application threads blocked for an additional 750ms [total block time: 164.491s]
+2013-01-16 01:47:39.486+0000: GC Monitor: Application threads blocked for an additional 749ms [total block time: 165.24s]
+2013-01-16 01:47:43.600+0000: GC Monitor: Application threads blocked for an additional 828ms [total block time: 166.068s]
+2013-01-16 01:47:44.780+0000: GC Monitor: Application threads blocked for an additional 979ms [total block time: 167.047s]
+2013-01-16 01:47:45.586+0000: GC Monitor: Application threads blocked for an additional 706ms [total block time: 167.753s]
+2013-01-16 01:47:46.613+0000: GC Monitor: Application threads blocked for an additional 927ms [total block time: 168.68s]
+2013-01-16 01:47:47.329+0000: GC Monitor: Application threads blocked for an additional 616ms [total block time: 169.296s]
+2013-01-16 01:47:48.432+0000: GC Monitor: Application threads blocked for an additional 1002ms [total block time: 170.298s]
+2013-01-16 01:47:49.182+0000: GC Monitor: Application threads blocked for an additional 650ms [total block time: 170.948s]
+2013-01-16 01:47:50.589+0000: GC Monitor: Application threads blocked for an additional 1307ms [total block time: 172.255s]
+2013-01-16 01:47:51.450+0000: GC Monitor: Application threads blocked for an additional 759ms [total block time: 173.014s]
+2013-01-16 01:48:00.644+0000: GC Monitor: Application threads blocked for an additional 1150ms [total block time: 174.164s]
+2013-01-16 01:48:02.435+0000: GC Monitor: Application threads blocked for an additional 1250ms [total block time: 175.414s]
+2013-01-16 01:48:03.719+0000: GC Monitor: Application threads blocked for an additional 1083ms [total block time: 176.497s]
+2013-01-16 01:48:05.255+0000: GC Monitor: Application threads blocked for an additional 1436ms [total block time: 177.933s]
+2013-01-16 01:48:06.135+0000: GC Monitor: Application threads blocked for an additional 778ms [total block time: 178.711s]
+2013-01-16 01:48:07.282+0000: GC Monitor: Application threads blocked for an additional 1047ms [total block time: 179.758s]
+2013-01-16 01:48:08.224+0000: GC Monitor: Application threads blocked for an additional 842ms [total block time: 180.6s]
+2013-01-16 01:48:09.800+0000: GC Monitor: Application threads blocked for an additional 1476ms [total block time: 182.076s]
+2013-01-16 01:48:10.782+0000: GC Monitor: Application threads blocked for an additional 882ms [total block time: 182.958s]
+2013-01-16 01:48:12.089+0000: GC Monitor: Application threads blocked for an additional 1025ms [total block time: 183.983s]
+2013-01-16 01:48:13.247+0000: GC Monitor: Application threads blocked for an additional 937ms [total block time: 184.92s]
+2013-01-16 01:48:14.293+0000: GC Monitor: Application threads blocked for an additional 946ms [total block time: 185.866s]
+2013-01-16 01:48:15.525+0000: GC Monitor: Application threads blocked for an additional 927ms [total block time: 186.793s]
+2013-01-16 01:48:16.235+0000: GC Monitor: Application threads blocked for an additional 610ms [total block time: 187.403s]
+2013-01-16 01:48:17.300+0000: GC Monitor: Application threads blocked for an additional 965ms [total block time: 188.368s]
+2013-01-16 01:48:18.287+0000: GC Monitor: Application threads blocked for an additional 887ms [total block time: 189.255s]
+2013-01-16 01:48:19.859+0000: GC Monitor: Application threads blocked for an additional 1056ms [total block time: 190.311s]
+2013-01-16 01:48:22.372+0000: GC Monitor: Application threads blocked for an additional 1335ms [total block time: 191.646s]
+2013-01-16 01:48:31.892+0000: GC Monitor: Application threads blocked for an additional 2207ms [total block time: 193.853s]
+2013-01-16 01:48:33.123+0000: GC Monitor: Application threads blocked for an additional 1131ms [total block time: 194.984s]
+2013-01-16 01:48:33.997+0000: GC Monitor: Application threads blocked for an additional 774ms [total block time: 195.758s]
+2013-01-16 01:48:35.122+0000: GC Monitor: Application threads blocked for an additional 1025ms [total block time: 196.783s]
+2013-01-16 01:48:36.188+0000: GC Monitor: Application threads blocked for an additional 966ms [total block time: 197.749s]
+2013-01-16 01:48:37.437+0000: GC Monitor: Application threads blocked for an additional 1149ms [total block time: 198.898s]
+2013-01-16 01:48:38.235+0000: GC Monitor: Application threads blocked for an additional 698ms [total block time: 199.596s]
+2013-01-16 01:48:39.513+0000: GC Monitor: Application threads blocked for an additional 1177ms [total block time: 200.773s]
+2013-01-16 01:48:40.484+0000: GC Monitor: Application threads blocked for an additional 871ms [total block time: 201.644s]
+2013-01-16 01:48:41.732+0000: GC Monitor: Application threads blocked for an additional 1148ms [total block time: 202.792s]
+2013-01-16 01:48:42.962+0000: GC Monitor: Application threads blocked for an additional 1130ms [total block time: 203.922s]
+2013-01-16 01:48:43.779+0000: GC Monitor: Application threads blocked for an additional 716ms [total block time: 204.638s]
+2013-01-16 01:48:45.671+0000: GC Monitor: Application threads blocked for an additional 1792ms [total block time: 206.43s]
+2013-01-16 01:48:47.066+0000: GC Monitor: Application threads blocked for an additional 957ms [total block time: 207.387s]
+2013-01-16 01:48:48.574+0000: GC Monitor: Application threads blocked for an additional 765ms [total block time: 208.152s]
+2013-01-16 01:48:49.491+0000: GC Monitor: Application threads blocked for an additional 802ms [total block time: 208.954s]
+2013-01-16 01:48:50.712+0000: GC Monitor: Application threads blocked for an additional 911ms [total block time: 209.865s]
+2013-01-16 01:48:51.890+0000: GC Monitor: Application threads blocked for an additional 870ms [total block time: 210.735s]
+2013-01-16 01:48:52.779+0000: GC Monitor: Application threads blocked for an additional 788ms [total block time: 211.523s]
+2013-01-16 01:48:56.713+0000: GC Monitor: Application threads blocked for an additional 1036ms [total block time: 212.559s]
+2013-01-16 01:49:00.847+0000: GC Monitor: Application threads blocked for an additional 1712ms [total block time: 214.271s]
+2013-01-16 01:49:02.943+0000: GC Monitor: Application threads blocked for an additional 744ms [total block time: 215.015s]
+2013-01-16 01:49:04.480+0000: GC Monitor: Application threads blocked for an additional 957ms [total block time: 215.972s]
+2013-01-16 01:49:05.224+0000: GC Monitor: Application threads blocked for an additional 644ms [total block time: 216.616s]
+2013-01-16 01:49:06.330+0000: GC Monitor: Application threads blocked for an additional 1006ms [total block time: 217.622s]
+2013-01-16 01:49:07.169+0000: GC Monitor: Application threads blocked for an additional 708ms [total block time: 218.33s]
+2013-01-16 01:49:08.464+0000: GC Monitor: Application threads blocked for an additional 1195ms [total block time: 219.525s]
+2013-01-16 01:49:09.343+0000: GC Monitor: Application threads blocked for an additional 676ms [total block time: 220.201s]
+2013-01-16 01:49:10.996+0000: GC Monitor: Application threads blocked for an additional 1329ms [total block time: 221.53s]
+2013-01-16 01:49:11.807+0000: GC Monitor: Application threads blocked for an additional 711ms [total block time: 222.241s]
+2013-01-16 01:49:13.207+0000: GC Monitor: Application threads blocked for an additional 1299ms [total block time: 223.54s]
+2013-01-16 01:49:14.295+0000: GC Monitor: Application threads blocked for an additional 987ms [total block time: 224.527s]
+2013-01-16 01:49:15.460+0000: GC Monitor: Application threads blocked for an additional 1065ms [total block time: 225.592s]
+2013-01-16 01:49:16.301+0000: GC Monitor: Application threads blocked for an additional 741ms [total block time: 226.333s]
+2013-01-16 01:49:17.464+0000: GC Monitor: Application threads blocked for an additional 1063ms [total block time: 227.396s]
+2013-01-16 01:49:18.659+0000: GC Monitor: Application threads blocked for an additional 888ms [total block time: 228.284s]
+2013-01-16 01:49:20.252+0000: GC Monitor: Application threads blocked for an additional 723ms [total block time: 229.007s]
+2013-01-16 01:49:21.574+0000: GC Monitor: Application threads blocked for an additional 1006ms [total block time: 230.013s]
+2013-01-16 01:49:22.726+0000: GC Monitor: Application threads blocked for an additional 842ms [total block time: 230.855s]
+2013-01-16 01:49:23.593+0000: GC Monitor: Application threads blocked for an additional 767ms [total block time: 231.622s]
+2013-01-16 01:49:29.177+0000: GC Monitor: Application threads blocked for an additional 837ms [total block time: 232.459s]
+2013-01-16 01:49:30.817+0000: GC Monitor: Application threads blocked for an additional 643ms [total block time: 233.102s]
+2013-01-16 01:49:32.199+0000: GC Monitor: Application threads blocked for an additional 767ms [total block time: 233.869s]
+2013-01-16 01:49:32.937+0000: GC Monitor: Application threads blocked for an additional 637ms [total block time: 234.506s]
+2013-01-16 01:49:34.016+0000: GC Monitor: Application threads blocked for an additional 978ms [total block time: 235.484s]
+2013-01-16 01:49:34.765+0000: GC Monitor: Application threads blocked for an additional 649ms [total block time: 236.133s]
+2013-01-16 01:49:35.927+0000: GC Monitor: Application threads blocked for an additional 1062ms [total block time: 237.195s]
+2013-01-16 01:49:36.801+0000: GC Monitor: Application threads blocked for an additional 774ms [total block time: 237.969s]
+2013-01-16 01:49:37.967+0000: GC Monitor: Application threads blocked for an additional 965ms [total block time: 238.934s]
+2013-01-16 01:49:39.104+0000: GC Monitor: Application threads blocked for an additional 1037ms [total block time: 239.971s]
+2013-01-16 01:49:39.834+0000: GC Monitor: Application threads blocked for an additional 630ms [total block time: 240.601s]
+2013-01-16 01:49:40.913+0000: GC Monitor: Application threads blocked for an additional 979ms [total block time: 241.58s]
+2013-01-16 01:49:41.778+0000: GC Monitor: Application threads blocked for an additional 764ms [total block time: 242.344s]
+2013-01-16 01:49:42.930+0000: GC Monitor: Application threads blocked for an additional 1052ms [total block time: 243.396s]
+2013-01-16 01:49:43.714+0000: GC Monitor: Application threads blocked for an additional 683ms [total block time: 244.079s]
+2013-01-16 01:49:44.790+0000: GC Monitor: Application threads blocked for an additional 976ms [total block time: 245.055s]
+2013-01-16 01:49:45.540+0000: GC Monitor: Application threads blocked for an additional 650ms [total block time: 245.705s]
+2013-01-16 01:49:46.612+0000: GC Monitor: Application threads blocked for an additional 972ms [total block time: 246.677s]
+2013-01-16 01:49:47.542+0000: GC Monitor: Application threads blocked for an additional 796ms [total block time: 247.473s]
+2013-01-16 01:49:48.637+0000: GC Monitor: Application threads blocked for an additional 782ms [total block time: 248.255s]
+2013-01-16 01:49:50.852+0000: GC Monitor: Application threads blocked for an additional 1040ms [total block time: 249.295s]
+2013-01-16 01:49:56.728+0000: GC Monitor: Application threads blocked for an additional 706ms [total block time: 250.001s]
+2013-01-16 01:49:58.456+0000: GC Monitor: Application threads blocked for an additional 1628ms [total block time: 251.629s]
+2013-01-16 01:49:59.267+0000: GC Monitor: Application threads blocked for an additional 711ms [total block time: 252.34s]
+2013-01-16 01:50:00.396+0000: GC Monitor: Application threads blocked for an additional 1029ms [total block time: 253.369s]
+2013-01-16 01:50:01.253+0000: GC Monitor: Application threads blocked for an additional 757ms [total block time: 254.126s]
+2013-01-16 01:50:03.448+0000: GC Monitor: Application threads blocked for an additional 1981ms [total block time: 256.107s]
+2013-01-16 01:50:04.176+0000: GC Monitor: Application threads blocked for an additional 627ms [total block time: 256.734s]
+2013-01-16 01:50:05.274+0000: GC Monitor: Application threads blocked for an additional 997ms [total block time: 257.731s]
+2013-01-16 01:50:06.180+0000: GC Monitor: Application threads blocked for an additional 806ms [total block time: 258.537s]
+2013-01-16 01:50:07.329+0000: GC Monitor: Application threads blocked for an additional 1049ms [total block time: 259.586s]
+2013-01-16 01:50:08.075+0000: GC Monitor: Application threads blocked for an additional 646ms [total block time: 260.232s]
+2013-01-16 01:50:09.218+0000: GC Monitor: Application threads blocked for an additional 1043ms [total block time: 261.275s]
+2013-01-16 01:50:10.086+0000: GC Monitor: Application threads blocked for an additional 767ms [total block time: 262.042s]
+2013-01-16 01:50:11.285+0000: GC Monitor: Application threads blocked for an additional 749ms [total block time: 262.791s]
+2013-01-16 01:50:14.206+0000: GC Monitor: Application threads blocked for an additional 938ms [total block time: 263.729s]
+2013-01-16 01:50:14.983+0000: GC Monitor: Application threads blocked for an additional 676ms [total block time: 264.405s]
+2013-01-16 01:50:16.180+0000: GC Monitor: Application threads blocked for an additional 996ms [total block time: 265.401s]
+2013-01-16 01:50:20.769+0000: GC Monitor: Application threads blocked for an additional 1532ms [total block time: 266.933s]
+2013-01-16 01:50:22.089+0000: GC Monitor: Application threads blocked for an additional 896ms [total block time: 267.829s]
+2013-01-16 01:50:24.010+0000: GC Monitor: Application threads blocked for an additional 887ms [total block time: 268.716s]
+2013-01-16 01:50:28.204+0000: GC Monitor: Application threads blocked for an additional 939ms [total block time: 269.655s]
+2013-01-16 01:50:28.984+0000: GC Monitor: Application threads blocked for an additional 680ms [total block time: 270.335s]
+2013-01-16 01:50:30.173+0000: GC Monitor: Application threads blocked for an additional 1082ms [total block time: 271.417s]
+2013-01-16 01:50:30.934+0000: GC Monitor: Application threads blocked for an additional 560ms [total block time: 271.977s]
+2013-01-16 01:50:31.930+0000: GC Monitor: Application threads blocked for an additional 896ms [total block time: 272.873s]
+2013-01-16 01:50:32.640+0000: GC Monitor: Application threads blocked for an additional 610ms [total block time: 273.483s]
+2013-01-16 01:50:33.630+0000: GC Monitor: Application threads blocked for an additional 889ms [total block time: 274.372s]
+2013-01-16 01:50:34.345+0000: GC Monitor: Application threads blocked for an additional 615ms [total block time: 274.987s]
+2013-01-16 01:50:35.421+0000: GC Monitor: Application threads blocked for an additional 976ms [total block time: 275.963s]
+2013-01-16 01:50:36.140+0000: GC Monitor: Application threads blocked for an additional 619ms [total block time: 276.582s]
+2013-01-16 01:50:37.276+0000: GC Monitor: Application threads blocked for an additional 1036ms [total block time: 277.618s]
+2013-01-16 01:50:38.166+0000: GC Monitor: Application threads blocked for an additional 756ms [total block time: 278.374s]
+2013-01-16 01:50:39.146+0000: GC Monitor: Application threads blocked for an additional 879ms [total block time: 279.253s]
+2013-01-16 01:50:39.964+0000: GC Monitor: Application threads blocked for an additional 718ms [total block time: 279.971s]
+2013-01-16 01:50:41.110+0000: GC Monitor: Application threads blocked for an additional 941ms [total block time: 280.912s]
+2013-01-16 01:50:41.855+0000: GC Monitor: Application threads blocked for an additional 645ms [total block time: 281.557s]
+2013-01-16 01:50:42.896+0000: GC Monitor: Application threads blocked for an additional 840ms [total block time: 282.397s]
+2013-01-16 01:50:43.720+0000: GC Monitor: Application threads blocked for an additional 724ms [total block time: 283.121s]
+2013-01-16 01:50:44.839+0000: GC Monitor: Application threads blocked for an additional 918ms [total block time: 284.039s]
+2013-01-16 01:50:46.032+0000: GC Monitor: Application threads blocked for an additional 947ms [total block time: 284.986s]
+2013-01-16 01:50:47.235+0000: GC Monitor: Application threads blocked for an additional 697ms [total block time: 285.683s]
+2013-01-16 01:50:48.057+0000: GC Monitor: Application threads blocked for an additional 722ms [total block time: 286.405s]
+2013-01-16 01:50:53.627+0000: GC Monitor: Application threads blocked for an additional 786ms [total block time: 287.191s]
+2013-01-16 01:50:54.444+0000: GC Monitor: Application threads blocked for an additional 717ms [total block time: 287.908s]
+2013-01-16 01:50:55.580+0000: GC Monitor: Application threads blocked for an additional 1036ms [total block time: 288.944s]
+2013-01-16 01:50:56.394+0000: GC Monitor: Application threads blocked for an additional 714ms [total block time: 289.658s]
+2013-01-16 01:50:57.550+0000: GC Monitor: Application threads blocked for an additional 1056ms [total block time: 290.714s]
+2013-01-16 01:50:58.419+0000: GC Monitor: Application threads blocked for an additional 749ms [total block time: 291.463s]
+2013-01-16 01:50:59.564+0000: GC Monitor: Application threads blocked for an additional 1045ms [total block time: 292.508s]
+2013-01-16 01:51:00.440+0000: GC Monitor: Application threads blocked for an additional 756ms [total block time: 293.264s]
+2013-01-16 01:51:01.596+0000: GC Monitor: Application threads blocked for an additional 1056ms [total block time: 294.32s]
+2013-01-16 01:51:02.460+0000: GC Monitor: Application threads blocked for an additional 762ms [total block time: 295.082s]
+2013-01-16 01:51:03.639+0000: GC Monitor: Application threads blocked for an additional 1079ms [total block time: 296.161s]
+2013-01-16 01:51:04.421+0000: GC Monitor: Application threads blocked for an additional 640ms [total block time: 296.801s]
+2013-01-16 01:51:05.572+0000: GC Monitor: Application threads blocked for an additional 1051ms [total block time: 297.852s]
+2013-01-16 01:51:06.754+0000: GC Monitor: Application threads blocked for an additional 972ms [total block time: 298.824s]
+2013-01-16 01:51:07.952+0000: GC Monitor: Application threads blocked for an additional 869ms [total block time: 299.693s]
+2013-01-16 01:51:08.781+0000: GC Monitor: Application threads blocked for an additional 729ms [total block time: 300.422s]
+2013-01-16 01:51:09.979+0000: GC Monitor: Application threads blocked for an additional 1098ms [total block time: 301.52s]
+2013-01-16 01:51:11.188+0000: GC Monitor: Application threads blocked for an additional 904ms [total block time: 302.424s]
+2013-01-16 01:51:13.274+0000: GC Monitor: Application threads blocked for an additional 1047ms [total block time: 303.471s]
+2013-01-16 01:51:19.545+0000: GC Monitor: Application threads blocked for an additional 858ms [total block time: 304.329s]
+2013-01-16 01:51:20.274+0000: GC Monitor: Application threads blocked for an additional 628ms [total block time: 304.957s]
+2013-01-16 01:51:21.311+0000: GC Monitor: Application threads blocked for an additional 937ms [total block time: 305.894s]
+2013-01-16 01:51:22.063+0000: GC Monitor: Application threads blocked for an additional 652ms [total block time: 306.546s]
+2013-01-16 01:51:23.260+0000: GC Monitor: Application threads blocked for an additional 1097ms [total block time: 307.643s]
+2013-01-16 01:51:24.121+0000: GC Monitor: Application threads blocked for an additional 761ms [total block time: 308.404s]
+2013-01-16 01:51:25.165+0000: GC Monitor: Application threads blocked for an additional 943ms [total block time: 309.347s]
+2013-01-16 01:51:25.931+0000: GC Monitor: Application threads blocked for an additional 666ms [total block time: 310.013s]
+2013-01-16 01:51:27.080+0000: GC Monitor: Application threads blocked for an additional 1049ms [total block time: 311.062s]
+2013-01-16 01:51:27.981+0000: GC Monitor: Application threads blocked for an additional 801ms [total block time: 311.863s]
+2013-01-16 01:51:29.162+0000: GC Monitor: Application threads blocked for an additional 979ms [total block time: 312.842s]
+2013-01-16 01:51:30.271+0000: GC Monitor: Application threads blocked for an additional 1009ms [total block time: 313.851s]
+2013-01-16 01:51:31.126+0000: GC Monitor: Application threads blocked for an additional 744ms [total block time: 314.595s]
+2013-01-16 01:51:32.318+0000: GC Monitor: Application threads blocked for an additional 1092ms [total block time: 315.687s]
+2013-01-16 01:51:33.547+0000: GC Monitor: Application threads blocked for an additional 1006ms [total block time: 316.693s]
+2013-01-16 01:51:34.746+0000: GC Monitor: Application threads blocked for an additional 889ms [total block time: 317.582s]
+2013-01-16 01:51:35.528+0000: GC Monitor: Application threads blocked for an additional 648ms [total block time: 318.23s]
+2013-01-16 01:51:36.694+0000: GC Monitor: Application threads blocked for an additional 1066ms [total block time: 319.296s]
+2013-01-16 01:51:41.302+0000: GC Monitor: Application threads blocked for an additional 1187ms [total block time: 320.483s]
+2013-01-16 01:51:43.817+0000: GC Monitor: Application threads blocked for an additional 1319ms [total block time: 321.802s]
+2013-01-16 01:51:44.683+0000: GC Monitor: Application threads blocked for an additional 766ms [total block time: 322.568s]
+2013-01-16 01:51:45.733+0000: GC Monitor: Application threads blocked for an additional 849ms [total block time: 323.417s]
+2013-01-16 01:51:46.622+0000: GC Monitor: Application threads blocked for an additional 775ms [total block time: 324.192s]
+2013-01-16 01:51:47.754+0000: GC Monitor: Application threads blocked for an additional 1032ms [total block time: 325.224s]
+2013-01-16 01:51:48.912+0000: GC Monitor: Application threads blocked for an additional 855ms [total block time: 326.079s]
+2013-01-16 01:51:49.778+0000: GC Monitor: Application threads blocked for an additional 766ms [total block time: 326.845s]
+2013-01-16 01:51:50.996+0000: GC Monitor: Application threads blocked for an additional 783ms [total block time: 327.628s]
+2013-01-16 01:51:52.219+0000: GC Monitor: Application threads blocked for an additional 600ms [total block time: 328.228s]
+2013-01-16 01:51:53.074+0000: GC Monitor: Application threads blocked for an additional 755ms [total block time: 328.983s]
+2013-01-16 01:51:54.259+0000: GC Monitor: Application threads blocked for an additional 881ms [total block time: 329.864s]
+2013-01-16 01:51:56.176+0000: GC Monitor: Application threads blocked for an additional 962ms [total block time: 330.826s]
+2013-01-16 01:52:00.999+0000: GC Monitor: Application threads blocked for an additional 1061ms [total block time: 331.887s]
+2013-01-16 01:52:01.829+0000: GC Monitor: Application threads blocked for an additional 730ms [total block time: 332.617s]
+2013-01-16 01:52:02.829+0000: GC Monitor: Application threads blocked for an additional 900ms [total block time: 333.517s]
+2013-01-16 01:52:03.577+0000: GC Monitor: Application threads blocked for an additional 648ms [total block time: 334.165s]
+2013-01-16 01:52:04.599+0000: GC Monitor: Application threads blocked for an additional 922ms [total block time: 335.087s]
+2013-01-16 01:52:05.459+0000: GC Monitor: Application threads blocked for an additional 759ms [total block time: 335.846s]
+2013-01-16 01:52:06.599+0000: GC Monitor: Application threads blocked for an additional 938ms [total block time: 336.784s]
+2013-01-16 01:52:07.461+0000: GC Monitor: Application threads blocked for an additional 761ms [total block time: 337.545s]
+2013-01-16 01:52:08.592+0000: GC Monitor: Application threads blocked for an additional 1031ms [total block time: 338.576s]
+2013-01-16 01:52:09.474+0000: GC Monitor: Application threads blocked for an additional 782ms [total block time: 339.358s]
+2013-01-16 01:52:10.662+0000: GC Monitor: Application threads blocked for an additional 987ms [total block time: 340.345s]
+2013-01-16 01:52:11.526+0000: GC Monitor: Application threads blocked for an additional 764ms [total block time: 341.109s]
+2013-01-16 01:52:12.656+0000: GC Monitor: Application threads blocked for an additional 1019ms [total block time: 342.128s]
+2013-01-16 01:52:13.592+0000: GC Monitor: Application threads blocked for an additional 816ms [total block time: 342.944s]
+2013-01-16 01:52:14.899+0000: GC Monitor: Application threads blocked for an additional 1098ms [total block time: 344.042s]
+2013-01-16 01:52:15.915+0000: GC Monitor: Application threads blocked for an additional 900ms [total block time: 344.942s]
+2013-01-16 01:52:17.290+0000: GC Monitor: Application threads blocked for an additional 851ms [total block time: 345.793s]
+2013-01-16 01:52:18.386+0000: GC Monitor: Application threads blocked for an additional 893ms [total block time: 346.686s]
+2013-01-16 01:52:19.258+0000: GC Monitor: Application threads blocked for an additional 770ms [total block time: 347.456s]
+2013-01-16 01:52:20.598+0000: GC Monitor: Application threads blocked for an additional 715ms [total block time: 348.171s]
+2013-01-16 01:52:21.970+0000: GC Monitor: Application threads blocked for an additional 858ms [total block time: 349.029s]
+2013-01-16 01:52:22.855+0000: GC Monitor: Application threads blocked for an additional 785ms [total block time: 349.814s]
+2013-01-16 01:52:24.543+0000: GC Monitor: Application threads blocked for an additional 892ms [total block time: 350.706s]
+2013-01-16 01:52:26.115+0000: GC Monitor: Application threads blocked for an additional 747ms [total block time: 351.453s]
+2013-01-16 01:52:27.047+0000: GC Monitor: Application threads blocked for an additional 832ms [total block time: 352.285s]
+2013-01-16 01:52:28.165+0000: GC Monitor: Application threads blocked for an additional 916ms [total block time: 353.201s]
+2013-01-16 01:52:28.891+0000: GC Monitor: Application threads blocked for an additional 625ms [total block time: 353.826s]
+2013-01-16 01:52:30.039+0000: GC Monitor: Application threads blocked for an additional 948ms [total block time: 354.774s]
+2013-01-16 01:52:31.015+0000: GC Monitor: Application threads blocked for an additional 869ms [total block time: 355.643s]
+2013-01-16 01:52:32.233+0000: GC Monitor: Application threads blocked for an additional 1016ms [total block time: 356.659s]
+2013-01-16 01:52:33.369+0000: GC Monitor: Application threads blocked for an additional 935ms [total block time: 357.594s]
+2013-01-16 01:52:34.566+0000: GC Monitor: Application threads blocked for an additional 983ms [total block time: 358.577s]
+2013-01-16 01:52:35.441+0000: GC Monitor: Application threads blocked for an additional 774ms [total block time: 359.351s]
+2013-01-16 01:52:36.563+0000: GC Monitor: Application threads blocked for an additional 920ms [total block time: 360.271s]
+2013-01-16 01:52:37.498+0000: GC Monitor: Application threads blocked for an additional 835ms [total block time: 361.106s]
+2013-01-16 01:52:38.708+0000: GC Monitor: Application threads blocked for an additional 1009ms [total block time: 362.115s]
+2013-01-16 01:52:39.614+0000: GC Monitor: Application threads blocked for an additional 800ms [total block time: 362.915s]
+2013-01-16 01:52:40.739+0000: GC Monitor: Application threads blocked for an additional 1025ms [total block time: 363.94s]
+2013-01-16 01:52:41.642+0000: GC Monitor: Application threads blocked for an additional 786ms [total block time: 364.726s]
+2013-01-16 01:52:42.792+0000: GC Monitor: Application threads blocked for an additional 849ms [total block time: 365.575s]
+2013-01-16 01:52:43.958+0000: GC Monitor: Application threads blocked for an additional 761ms [total block time: 366.336s]
+2013-01-16 01:52:44.976+0000: GC Monitor: Application threads blocked for an additional 817ms [total block time: 367.153s]
+2013-01-16 01:52:46.140+0000: GC Monitor: Application threads blocked for an additional 1064ms [total block time: 368.217s]
+2013-01-16 01:52:47.046+0000: GC Monitor: Application threads blocked for an additional 805ms [total block time: 369.022s]
+2013-01-16 01:52:48.146+0000: GC Monitor: Application threads blocked for an additional 1000ms [total block time: 370.022s]
+2013-01-16 01:52:48.746+0000: GC Monitor: Application threads blocked for an additional 481ms [total block time: 370.503s]
+2013-01-16 01:52:55.445+0000: GC Monitor: Application threads blocked for an additional 916ms [total block time: 371.419s]
+2013-01-16 01:52:56.619+0000: GC Monitor: Application threads blocked for an additional 920ms [total block time: 372.339s]
+2013-01-16 01:52:57.710+0000: GC Monitor: Application threads blocked for an additional 878ms [total block time: 373.217s]
+2013-01-16 01:52:58.462+0000: GC Monitor: Application threads blocked for an additional 651ms [total block time: 373.868s]
+2013-01-16 01:52:59.507+0000: GC Monitor: Application threads blocked for an additional 945ms [total block time: 374.813s]
+2013-01-16 01:53:00.375+0000: GC Monitor: Application threads blocked for an additional 768ms [total block time: 375.581s]
+2013-01-16 01:53:01.577+0000: GC Monitor: Application threads blocked for an additional 997ms [total block time: 376.578s]
+2013-01-16 01:53:02.348+0000: GC Monitor: Application threads blocked for an additional 670ms [total block time: 377.248s]
+2013-01-16 01:53:03.592+0000: GC Monitor: Application threads blocked for an additional 1013ms [total block time: 378.261s]
+2013-01-16 01:53:04.478+0000: GC Monitor: Application threads blocked for an additional 786ms [total block time: 379.047s]
+2013-01-16 01:53:05.573+0000: GC Monitor: Application threads blocked for an additional 891ms [total block time: 379.938s]
+2013-01-16 01:53:06.374+0000: GC Monitor: Application threads blocked for an additional 701ms [total block time: 380.639s]
+2013-01-16 01:53:07.548+0000: GC Monitor: Application threads blocked for an additional 973ms [total block time: 381.612s]
+2013-01-16 01:53:10.254+0000: GC Monitor: Application threads blocked for an additional 926ms [total block time: 382.538s]
+2013-01-16 01:53:11.510+0000: GC Monitor: Application threads blocked for an additional 827ms [total block time: 383.365s]
+2013-01-16 01:53:12.683+0000: GC Monitor: Application threads blocked for an additional 770ms [total block time: 384.135s]
+2013-01-16 01:53:13.577+0000: GC Monitor: Application threads blocked for an additional 774ms [total block time: 384.909s]
+2013-01-16 01:53:14.711+0000: GC Monitor: Application threads blocked for an additional 1033ms [total block time: 385.942s]
+2013-01-16 01:53:15.889+0000: GC Monitor: Application threads blocked for an additional 863ms [total block time: 386.805s]
+2013-01-16 01:53:17.146+0000: GC Monitor: Application threads blocked for an additional 736ms [total block time: 387.541s]
+2013-01-16 01:53:18.024+0000: GC Monitor: Application threads blocked for an additional 777ms [total block time: 388.318s]
+2013-01-16 01:53:19.207+0000: GC Monitor: Application threads blocked for an additional 975ms [total block time: 389.293s]
+2013-01-16 01:53:19.932+0000: GC Monitor: Application threads blocked for an additional 625ms [total block time: 389.918s]
+2013-01-16 01:53:21.973+0000: GC Monitor: Application threads blocked for an additional 1836ms [total block time: 391.754s]
+2013-01-16 01:53:23.221+0000: GC Monitor: Application threads blocked for an additional 1032ms [total block time: 392.786s]
+2013-01-16 01:53:24.034+0000: GC Monitor: Application threads blocked for an additional 713ms [total block time: 393.499s]
+2013-01-16 01:53:25.171+0000: GC Monitor: Application threads blocked for an additional 935ms [total block time: 394.434s]
+2013-01-16 01:53:26.065+0000: GC Monitor: Application threads blocked for an additional 793ms [total block time: 395.227s]
+2013-01-16 01:53:27.231+0000: GC Monitor: Application threads blocked for an additional 1066ms [total block time: 396.293s]
+2013-01-16 01:53:28.113+0000: GC Monitor: Application threads blocked for an additional 781ms [total block time: 397.074s]
+2013-01-16 01:53:29.258+0000: GC Monitor: Application threads blocked for an additional 834ms [total block time: 397.908s]
+2013-01-16 01:53:30.371+0000: GC Monitor: Application threads blocked for an additional 799ms [total block time: 398.707s]
+2013-01-16 01:53:31.227+0000: GC Monitor: Application threads blocked for an additional 745ms [total block time: 399.452s]
+2013-01-16 01:53:32.369+0000: GC Monitor: Application threads blocked for an additional 824ms [total block time: 400.276s]
+2013-01-16 01:53:33.472+0000: GC Monitor: Application threads blocked for an additional 879ms [total block time: 401.155s]
+2013-01-16 01:53:34.354+0000: GC Monitor: Application threads blocked for an additional 782ms [total block time: 401.937s]
+2013-01-16 01:53:35.491+0000: GC Monitor: Application threads blocked for an additional 824ms [total block time: 402.761s]
+2013-01-16 01:53:36.608+0000: GC Monitor: Application threads blocked for an additional 805ms [total block time: 403.566s]
+2013-01-16 01:53:37.500+0000: GC Monitor: Application threads blocked for an additional 782ms [total block time: 404.348s]
+2013-01-16 01:53:38.655+0000: GC Monitor: Application threads blocked for an additional 947ms [total block time: 405.295s]
+2013-01-16 01:53:39.363+0000: GC Monitor: Application threads blocked for an additional 608ms [total block time: 405.903s]
+2013-01-16 01:53:40.533+0000: GC Monitor: Application threads blocked for an additional 1061ms [total block time: 406.964s]
+2013-01-16 01:53:41.368+0000: GC Monitor: Application threads blocked for an additional 734ms [total block time: 407.698s]
+2013-01-16 01:53:42.529+0000: GC Monitor: Application threads blocked for an additional 1060ms [total block time: 408.758s]
+2013-01-16 01:53:43.084+0000: GC Monitor: Application threads blocked for an additional 450ms [total block time: 409.208s]
+2013-01-16 01:53:49.031+0000: GC Monitor: Application threads blocked for an additional 1004ms [total block time: 410.212s]
+2013-01-16 01:53:50.287+0000: GC Monitor: Application threads blocked for an additional 716ms [total block time: 410.928s]
+2013-01-16 01:53:51.441+0000: GC Monitor: Application threads blocked for an additional 743ms [total block time: 411.671s]
+2013-01-16 01:53:52.276+0000: GC Monitor: Application threads blocked for an additional 735ms [total block time: 412.406s]
+2013-01-16 01:53:53.314+0000: GC Monitor: Application threads blocked for an additional 836ms [total block time: 413.242s]
+2013-01-16 01:53:54.188+0000: GC Monitor: Application threads blocked for an additional 773ms [total block time: 414.015s]
+2013-01-16 01:53:55.310+0000: GC Monitor: Application threads blocked for an additional 1022ms [total block time: 415.037s]
+2013-01-16 01:53:56.061+0000: GC Monitor: Application threads blocked for an additional 644ms [total block time: 415.681s]
+2013-01-16 01:53:57.206+0000: GC Monitor: Application threads blocked for an additional 1045ms [total block time: 416.726s]
+2013-01-16 01:53:58.080+0000: GC Monitor: Application threads blocked for an additional 774ms [total block time: 417.5s]
+2013-01-16 01:53:59.125+0000: GC Monitor: Application threads blocked for an additional 945ms [total block time: 418.445s]
+2013-01-16 01:53:59.997+0000: GC Monitor: Application threads blocked for an additional 772ms [total block time: 419.217s]
+2013-01-16 01:54:01.162+0000: GC Monitor: Application threads blocked for an additional 1051ms [total block time: 420.268s]
+2013-01-16 01:54:02.029+0000: GC Monitor: Application threads blocked for an additional 767ms [total block time: 421.035s]
+2013-01-16 01:54:03.175+0000: GC Monitor: Application threads blocked for an additional 937ms [total block time: 421.972s]
+2013-01-16 01:54:04.360+0000: GC Monitor: Application threads blocked for an additional 769ms [total block time: 422.741s]
+2013-01-16 01:54:05.210+0000: GC Monitor: Application threads blocked for an additional 742ms [total block time: 423.483s]
+2013-01-16 01:54:06.346+0000: GC Monitor: Application threads blocked for an additional 1035ms [total block time: 424.518s]
+2013-01-16 01:54:07.573+0000: GC Monitor: Application threads blocked for an additional 925ms [total block time: 425.443s]
+2013-01-16 01:54:08.695+0000: GC Monitor: Application threads blocked for an additional 920ms [total block time: 426.363s]
+2013-01-16 01:54:09.571+0000: GC Monitor: Application threads blocked for an additional 776ms [total block time: 427.139s]
+2013-01-16 01:54:11.249+0000: GC Monitor: Application threads blocked for an additional 858ms [total block time: 427.997s]
+2013-01-16 01:54:12.745+0000: GC Monitor: Application threads blocked for an additional 763ms [total block time: 428.76s]
+2013-01-16 01:54:13.629+0000: GC Monitor: Application threads blocked for an additional 784ms [total block time: 429.544s]
+2013-01-16 01:54:14.785+0000: GC Monitor: Application threads blocked for an additional 720ms [total block time: 430.264s]
+2013-01-16 01:54:15.938+0000: GC Monitor: Application threads blocked for an additional 738ms [total block time: 431.002s]
+2013-01-16 01:54:16.809+0000: GC Monitor: Application threads blocked for an additional 771ms [total block time: 431.773s]
+2013-01-16 01:54:17.900+0000: GC Monitor: Application threads blocked for an additional 991ms [total block time: 432.764s]
+2013-01-16 01:54:18.770+0000: GC Monitor: Application threads blocked for an additional 770ms [total block time: 433.534s]
+2013-01-16 01:54:19.893+0000: GC Monitor: Application threads blocked for an additional 922ms [total block time: 434.456s]
+2013-01-16 01:54:20.778+0000: GC Monitor: Application threads blocked for an additional 770ms [total block time: 435.226s]
+2013-01-16 01:54:21.891+0000: GC Monitor: Application threads blocked for an additional 1013ms [total block time: 436.239s]
+2013-01-16 01:54:22.768+0000: GC Monitor: Application threads blocked for an additional 777ms [total block time: 437.016s]
+2013-01-16 01:54:23.905+0000: GC Monitor: Application threads blocked for an additional 1036ms [total block time: 438.052s]
+2013-01-16 01:54:24.743+0000: GC Monitor: Application threads blocked for an additional 738ms [total block time: 438.79s]
+2013-01-16 01:54:25.794+0000: GC Monitor: Application threads blocked for an additional 848ms [total block time: 439.638s]
+2013-01-16 01:54:26.675+0000: GC Monitor: Application threads blocked for an additional 781ms [total block time: 440.419s]
+2013-01-16 01:54:27.797+0000: GC Monitor: Application threads blocked for an additional 1021ms [total block time: 441.44s]
+2013-01-16 01:54:28.630+0000: GC Monitor: Application threads blocked for an additional 733ms [total block time: 442.173s]
+2013-01-16 01:54:29.626+0000: GC Monitor: Application threads blocked for an additional 895ms [total block time: 443.068s]
+2013-01-16 01:54:30.467+0000: GC Monitor: Application threads blocked for an additional 741ms [total block time: 443.809s]
+2013-01-16 01:54:31.581+0000: GC Monitor: Application threads blocked for an additional 909ms [total block time: 444.718s]
+2013-01-16 01:54:32.412+0000: GC Monitor: Application threads blocked for an additional 731ms [total block time: 445.449s]
+2013-01-16 01:54:33.580+0000: GC Monitor: Application threads blocked for an additional 966ms [total block time: 446.415s]
+2013-01-16 01:54:34.454+0000: GC Monitor: Application threads blocked for an additional 736ms [total block time: 447.151s]
+2013-01-16 01:54:35.768+0000: GC Monitor: Application threads blocked for an additional 763ms [total block time: 447.914s]
+2013-01-16 01:54:36.736+0000: GC Monitor: Application threads blocked for an additional 547ms [total block time: 448.461s]
+2013-01-16 01:54:43.122+0000: GC Monitor: Application threads blocked for an additional 980ms [total block time: 449.441s]
+2013-01-16 01:54:43.848+0000: GC Monitor: Application threads blocked for an additional 626ms [total block time: 450.067s]
+2013-01-16 01:54:44.840+0000: GC Monitor: Application threads blocked for an additional 891ms [total block time: 450.958s]
+2013-01-16 01:54:45.574+0000: GC Monitor: Application threads blocked for an additional 624ms [total block time: 451.582s]
+2013-01-16 01:54:46.572+0000: GC Monitor: Application threads blocked for an additional 898ms [total block time: 452.48s]
+2013-01-16 01:54:47.420+0000: GC Monitor: Application threads blocked for an additional 748ms [total block time: 453.228s]
+2013-01-16 01:54:48.559+0000: GC Monitor: Application threads blocked for an additional 1039ms [total block time: 454.267s]
+2013-01-16 01:54:49.422+0000: GC Monitor: Application threads blocked for an additional 748ms [total block time: 455.015s]
+2013-01-16 01:54:50.536+0000: GC Monitor: Application threads blocked for an additional 1014ms [total block time: 456.029s]
+2013-01-16 01:54:51.382+0000: GC Monitor: Application threads blocked for an additional 746ms [total block time: 456.775s]
+2013-01-16 01:54:53.228+0000: GC Monitor: Application threads blocked for an additional 1631ms [total block time: 458.406s]
+2013-01-16 01:54:54.253+0000: GC Monitor: Application threads blocked for an additional 924ms [total block time: 459.33s]
+2013-01-16 01:54:55.120+0000: GC Monitor: Application threads blocked for an additional 752ms [total block time: 460.082s]
+2013-01-16 01:54:56.187+0000: GC Monitor: Application threads blocked for an additional 967ms [total block time: 461.049s]
+2013-01-16 01:54:57.325+0000: GC Monitor: Application threads blocked for an additional 715ms [total block time: 461.764s]
+2013-01-16 01:54:58.188+0000: GC Monitor: Application threads blocked for an additional 756ms [total block time: 462.52s]
+2013-01-16 01:54:59.310+0000: GC Monitor: Application threads blocked for an additional 1020ms [total block time: 463.54s]
+2013-01-16 01:55:00.530+0000: GC Monitor: Application threads blocked for an additional 1017ms [total block time: 464.557s]
+2013-01-16 01:55:01.649+0000: GC Monitor: Application threads blocked for an additional 811ms [total block time: 465.368s]
+2013-01-16 01:55:02.507+0000: GC Monitor: Application threads blocked for an additional 757ms [total block time: 466.125s]
+2013-01-16 01:55:05.857+0000: GC Monitor: Application threads blocked for an additional 938ms [total block time: 467.063s]
+2013-01-16 01:55:07.071+0000: GC Monitor: Application threads blocked for an additional 912ms [total block time: 467.975s]
+2013-01-16 01:55:08.186+0000: GC Monitor: Application threads blocked for an additional 905ms [total block time: 468.88s]
+2013-01-16 01:55:08.959+0000: GC Monitor: Application threads blocked for an additional 672ms [total block time: 469.552s]
+2013-01-16 01:55:09.949+0000: GC Monitor: Application threads blocked for an additional 789ms [total block time: 470.341s]
+2013-01-16 01:55:10.836+0000: GC Monitor: Application threads blocked for an additional 784ms [total block time: 471.125s]
+2013-01-16 01:55:11.989+0000: GC Monitor: Application threads blocked for an additional 951ms [total block time: 472.076s]
+2013-01-16 01:55:12.870+0000: GC Monitor: Application threads blocked for an additional 780ms [total block time: 472.856s]
+2013-01-16 01:55:14.018+0000: GC Monitor: Application threads blocked for an additional 1048ms [total block time: 473.904s]
+2013-01-16 01:55:14.933+0000: GC Monitor: Application threads blocked for an additional 798ms [total block time: 474.702s]
+2013-01-16 01:55:16.051+0000: GC Monitor: Application threads blocked for an additional 918ms [total block time: 475.62s]
+2013-01-16 01:55:16.818+0000: GC Monitor: Application threads blocked for an additional 667ms [total block time: 476.287s]
+2013-01-16 01:55:18.005+0000: GC Monitor: Application threads blocked for an additional 885ms [total block time: 477.172s]
+2013-01-16 01:55:18.894+0000: GC Monitor: Application threads blocked for an additional 781ms [total block time: 477.953s]
+2013-01-16 01:55:20.032+0000: GC Monitor: Application threads blocked for an additional 1037ms [total block time: 478.99s]
+2013-01-16 01:55:20.917+0000: GC Monitor: Application threads blocked for an additional 783ms [total block time: 479.773s]
+2013-01-16 01:55:22.083+0000: GC Monitor: Application threads blocked for an additional 965ms [total block time: 480.738s]
+2013-01-16 01:55:22.984+0000: GC Monitor: Application threads blocked for an additional 800ms [total block time: 481.538s]
+2013-01-16 01:55:24.243+0000: GC Monitor: Application threads blocked for an additional 1054ms [total block time: 482.592s]
+2013-01-16 01:55:28.069+0000: GC Monitor: Application threads blocked for an additional 2392ms [total block time: 484.984s]
+2013-01-16 01:55:29.047+0000: GC Monitor: Application threads blocked for an additional 774ms [total block time: 485.758s]
+2013-01-16 01:55:36.373+0000: GC Monitor: Application threads blocked for an additional 1000ms [total block time: 486.758s]
+2013-01-16 01:55:37.624+0000: GC Monitor: Application threads blocked for an additional 998ms [total block time: 487.756s]
+2013-01-16 01:55:38.445+0000: GC Monitor: Application threads blocked for an additional 721ms [total block time: 488.477s]
+2013-01-16 01:55:40.261+0000: GC Monitor: Application threads blocked for an additional 1612ms [total block time: 490.089s]
+2013-01-16 01:55:41.336+0000: GC Monitor: Application threads blocked for an additional 975ms [total block time: 491.064s]
+2013-01-16 01:55:42.207+0000: GC Monitor: Application threads blocked for an additional 771ms [total block time: 491.835s]
+2013-01-16 01:55:43.321+0000: GC Monitor: Application threads blocked for an additional 1013ms [total block time: 492.848s]
+2013-01-16 01:55:44.237+0000: GC Monitor: Application threads blocked for an additional 800ms [total block time: 493.648s]
+2013-01-16 01:55:45.398+0000: GC Monitor: Application threads blocked for an additional 1061ms [total block time: 494.709s]
+2013-01-16 01:55:46.168+0000: GC Monitor: Application threads blocked for an additional 670ms [total block time: 495.379s]
+2013-01-16 01:55:47.352+0000: GC Monitor: Application threads blocked for an additional 1084ms [total block time: 496.463s]
+2013-01-16 01:55:48.564+0000: GC Monitor: Application threads blocked for an additional 861ms [total block time: 497.324s]
+2013-01-16 01:55:49.946+0000: GC Monitor: Application threads blocked for an additional 753ms [total block time: 498.077s]
+2013-01-16 01:55:50.726+0000: GC Monitor: Application threads blocked for an additional 680ms [total block time: 498.757s]
+2013-01-16 01:55:51.918+0000: GC Monitor: Application threads blocked for an additional 1091ms [total block time: 499.848s]
+2013-01-16 01:55:53.172+0000: GC Monitor: Application threads blocked for an additional 826ms [total block time: 500.674s]
+2013-01-16 01:55:54.433+0000: GC Monitor: Application threads blocked for an additional 757ms [total block time: 501.431s]
+2013-01-16 01:55:55.345+0000: GC Monitor: Application threads blocked for an additional 810ms [total block time: 502.241s]
+2013-01-16 01:55:56.639+0000: GC Monitor: Application threads blocked for an additional 783ms [total block time: 503.024s]
+2013-01-16 01:55:57.997+0000: GC Monitor: Application threads blocked for an additional 626ms [total block time: 503.65s]
+2013-01-16 01:55:58.905+0000: GC Monitor: Application threads blocked for an additional 790ms [total block time: 504.44s]
+2013-01-16 01:56:00.081+0000: GC Monitor: Application threads blocked for an additional 974ms [total block time: 505.414s]
+2013-01-16 01:56:01.192+0000: GC Monitor: Application threads blocked for an additional 910ms [total block time: 506.324s]
+2013-01-16 01:56:02.080+0000: GC Monitor: Application threads blocked for an additional 780ms [total block time: 507.104s]
+2013-01-16 01:56:03.193+0000: GC Monitor: Application threads blocked for an additional 1013ms [total block time: 508.117s]
+2013-01-16 01:56:03.959+0000: GC Monitor: Application threads blocked for an additional 666ms [total block time: 508.783s]
+2013-01-16 01:56:05.102+0000: GC Monitor: Application threads blocked for an additional 940ms [total block time: 509.723s]
+2013-01-16 01:56:05.973+0000: GC Monitor: Application threads blocked for an additional 771ms [total block time: 510.494s]
+2013-01-16 01:56:07.110+0000: GC Monitor: Application threads blocked for an additional 937ms [total block time: 511.431s]
+2013-01-16 01:56:07.997+0000: GC Monitor: Application threads blocked for an additional 775ms [total block time: 512.206s]
+2013-01-16 01:56:09.112+0000: GC Monitor: Application threads blocked for an additional 1013ms [total block time: 513.219s]
+2013-01-16 01:56:10.314+0000: GC Monitor: Application threads blocked for an additional 957ms [total block time: 514.176s]
+2013-01-16 01:56:11.419+0000: GC Monitor: Application threads blocked for an additional 889ms [total block time: 515.065s]
+2013-01-16 01:56:12.299+0000: GC Monitor: Application threads blocked for an additional 778ms [total block time: 515.843s]
+2013-01-16 01:56:13.426+0000: GC Monitor: Application threads blocked for an additional 924ms [total block time: 516.767s]
+2013-01-16 01:56:14.259+0000: GC Monitor: Application threads blocked for an additional 733ms [total block time: 517.5s]
+2013-01-16 01:56:15.313+0000: GC Monitor: Application threads blocked for an additional 853ms [total block time: 518.353s]
+2013-01-16 01:56:16.214+0000: GC Monitor: Application threads blocked for an additional 801ms [total block time: 519.154s]
+2013-01-16 01:56:17.327+0000: GC Monitor: Application threads blocked for an additional 781ms [total block time: 519.935s]
+2013-01-16 01:56:18.613+0000: GC Monitor: Application threads blocked for an additional 863ms [total block time: 520.798s]
+2013-01-16 01:56:19.513+0000: GC Monitor: Application threads blocked for an additional 800ms [total block time: 521.598s]
+2013-01-16 01:56:20.520+0000: GC Monitor: Application threads blocked for an additional 906ms [total block time: 522.504s]
+2013-01-16 01:56:21.408+0000: GC Monitor: Application threads blocked for an additional 786ms [total block time: 523.29s]
+2013-01-16 01:56:22.273+0000: GC Monitor: Application threads blocked for an additional 761ms [total block time: 524.051s]
+2013-01-16 01:56:28.488+0000: GC Monitor: Application threads blocked for an additional 1044ms [total block time: 525.095s]
+2013-01-16 01:56:29.238+0000: GC Monitor: Application threads blocked for an additional 650ms [total block time: 525.745s]
+2013-01-16 01:56:30.385+0000: GC Monitor: Application threads blocked for an additional 1045ms [total block time: 526.79s]
+2013-01-16 01:56:31.246+0000: GC Monitor: Application threads blocked for an additional 761ms [total block time: 527.551s]
+2013-01-16 01:56:32.255+0000: GC Monitor: Application threads blocked for an additional 909ms [total block time: 528.46s]
+2013-01-16 01:56:33.126+0000: GC Monitor: Application threads blocked for an additional 771ms [total block time: 529.231s]
+2013-01-16 01:56:34.272+0000: GC Monitor: Application threads blocked for an additional 944ms [total block time: 530.175s]
+2013-01-16 01:56:35.214+0000: GC Monitor: Application threads blocked for an additional 768ms [total block time: 530.943s]
+2013-01-16 01:56:36.274+0000: GC Monitor: Application threads blocked for an additional 960ms [total block time: 531.903s]
+2013-01-16 01:56:37.145+0000: GC Monitor: Application threads blocked for an additional 765ms [total block time: 532.668s]
+2013-01-16 01:56:38.262+0000: GC Monitor: Application threads blocked for an additional 916ms [total block time: 533.584s]
+2013-01-16 01:56:39.485+0000: GC Monitor: Application threads blocked for an additional 985ms [total block time: 534.569s]
+2013-01-16 01:56:40.203+0000: GC Monitor: Application threads blocked for an additional 618ms [total block time: 535.187s]
+2013-01-16 01:56:41.240+0000: GC Monitor: Application threads blocked for an additional 855ms [total block time: 536.042s]
+2013-01-16 01:56:42.077+0000: GC Monitor: Application threads blocked for an additional 736ms [total block time: 536.778s]
+2013-01-16 01:56:43.339+0000: GC Monitor: Application threads blocked for an additional 1052ms [total block time: 537.83s]
+2013-01-16 01:56:44.449+0000: GC Monitor: Application threads blocked for an additional 886ms [total block time: 538.716s]
+2013-01-16 01:56:45.640+0000: GC Monitor: Application threads blocked for an additional 768ms [total block time: 539.484s]
+2013-01-16 01:56:46.513+0000: GC Monitor: Application threads blocked for an additional 773ms [total block time: 540.257s]
+2013-01-16 01:56:49.431+0000: GC Monitor: Application threads blocked for an additional 1029ms [total block time: 541.286s]
+2013-01-16 01:56:50.770+0000: GC Monitor: Application threads blocked for an additional 797ms [total block time: 542.083s]
+2013-01-16 01:56:51.995+0000: GC Monitor: Application threads blocked for an additional 635ms [total block time: 542.718s]
+2013-01-16 01:56:52.864+0000: GC Monitor: Application threads blocked for an additional 769ms [total block time: 543.487s]
+2013-01-16 01:56:54.079+0000: GC Monitor: Application threads blocked for an additional 1115ms [total block time: 544.602s]
+2013-01-16 01:56:55.004+0000: GC Monitor: Application threads blocked for an additional 815ms [total block time: 545.417s]
+2013-01-16 01:56:56.194+0000: GC Monitor: Application threads blocked for an additional 1090ms [total block time: 546.507s]
+2013-01-16 01:56:57.122+0000: GC Monitor: Application threads blocked for an additional 828ms [total block time: 547.335s]
+2013-01-16 01:56:58.314+0000: GC Monitor: Application threads blocked for an additional 988ms [total block time: 548.323s]
+2013-01-16 01:56:59.258+0000: GC Monitor: Application threads blocked for an additional 843ms [total block time: 549.166s]
+2013-01-16 01:57:00.454+0000: GC Monitor: Application threads blocked for an additional 1096ms [total block time: 550.262s]
+2013-01-16 01:57:01.349+0000: GC Monitor: Application threads blocked for an additional 795ms [total block time: 551.057s]
+2013-01-16 01:57:02.523+0000: GC Monitor: Application threads blocked for an additional 972ms [total block time: 552.029s]
+2013-01-16 01:57:03.422+0000: GC Monitor: Application threads blocked for an additional 799ms [total block time: 552.828s]
+2013-01-16 01:57:04.574+0000: GC Monitor: Application threads blocked for an additional 1052ms [total block time: 553.88s]
+2013-01-16 01:57:05.488+0000: GC Monitor: Application threads blocked for an additional 787ms [total block time: 554.667s]
+2013-01-16 01:57:06.537+0000: GC Monitor: Application threads blocked for an additional 949ms [total block time: 555.616s]
+2013-01-16 01:57:07.434+0000: GC Monitor: Application threads blocked for an additional 786ms [total block time: 556.402s]
+2013-01-16 01:57:08.594+0000: GC Monitor: Application threads blocked for an additional 849ms [total block time: 557.251s]
+2013-01-16 01:57:09.707+0000: GC Monitor: Application threads blocked for an additional 887ms [total block time: 558.138s]
+2013-01-16 01:57:10.593+0000: GC Monitor: Application threads blocked for an additional 785ms [total block time: 558.923s]
+2013-01-16 01:57:12.035+0000: GC Monitor: Application threads blocked for an additional 830ms [total block time: 559.753s]
+2013-01-16 01:57:13.606+0000: GC Monitor: Application threads blocked for an additional 831ms [total block time: 560.584s]
+2013-01-16 01:57:17.470+0000: GC Monitor: Application threads blocked for an additional 511ms [total block time: 561.095s]
+2013-01-16 01:57:20.429+0000: GC Monitor: Application threads blocked for an additional 754ms [total block time: 561.849s]
+2013-01-16 01:57:21.163+0000: GC Monitor: Application threads blocked for an additional 634ms [total block time: 562.483s]
+2013-01-16 01:57:22.165+0000: GC Monitor: Application threads blocked for an additional 901ms [total block time: 563.384s]
+2013-01-16 01:57:22.911+0000: GC Monitor: Application threads blocked for an additional 645ms [total block time: 564.029s]
+2013-01-16 01:57:23.932+0000: GC Monitor: Application threads blocked for an additional 921ms [total block time: 564.95s]
+2013-01-16 01:57:24.810+0000: GC Monitor: Application threads blocked for an additional 753ms [total block time: 565.703s]
+2013-01-16 01:57:25.945+0000: GC Monitor: Application threads blocked for an additional 1034ms [total block time: 566.737s]
+2013-01-16 01:57:26.809+0000: GC Monitor: Application threads blocked for an additional 763ms [total block time: 567.5s]
+2013-01-16 01:57:27.847+0000: GC Monitor: Application threads blocked for an additional 938ms [total block time: 568.438s]
+2013-01-16 01:57:28.589+0000: GC Monitor: Application threads blocked for an additional 641ms [total block time: 569.079s]
+2013-01-16 01:57:29.751+0000: GC Monitor: Application threads blocked for an additional 1062ms [total block time: 570.141s]
+2013-01-16 01:57:30.618+0000: GC Monitor: Application threads blocked for an additional 766ms [total block time: 570.907s]
+2013-01-16 01:57:31.731+0000: GC Monitor: Application threads blocked for an additional 912ms [total block time: 571.819s]
+2013-01-16 01:57:32.516+0000: GC Monitor: Application threads blocked for an additional 685ms [total block time: 572.504s]
+2013-01-16 01:57:33.672+0000: GC Monitor: Application threads blocked for an additional 954ms [total block time: 573.458s]
+2013-01-16 01:57:34.877+0000: GC Monitor: Application threads blocked for an additional 681ms [total block time: 574.139s]
+2013-01-16 01:57:36.341+0000: GC Monitor: Application threads blocked for an additional 682ms [total block time: 574.821s]
+2013-01-16 01:57:37.217+0000: GC Monitor: Application threads blocked for an additional 776ms [total block time: 575.597s]
+2013-01-16 01:57:38.377+0000: GC Monitor: Application threads blocked for an additional 848ms [total block time: 576.445s]
+2013-01-16 01:57:39.469+0000: GC Monitor: Application threads blocked for an additional 870ms [total block time: 577.315s]
+2013-01-16 01:57:40.344+0000: GC Monitor: Application threads blocked for an additional 775ms [total block time: 578.09s]
+2013-01-16 01:57:41.715+0000: GC Monitor: Application threads blocked for an additional 695ms [total block time: 578.785s]
+2013-01-16 01:57:43.064+0000: GC Monitor: Application threads blocked for an additional 734ms [total block time: 579.519s]
+2013-01-16 01:57:43.951+0000: GC Monitor: Application threads blocked for an additional 787ms [total block time: 580.306s]
+2013-01-16 01:57:45.112+0000: GC Monitor: Application threads blocked for an additional 851ms [total block time: 581.157s]
+2013-01-16 01:57:46.214+0000: GC Monitor: Application threads blocked for an additional 800ms [total block time: 581.957s]
+2013-01-16 01:57:47.083+0000: GC Monitor: Application threads blocked for an additional 768ms [total block time: 582.725s]
+2013-01-16 01:57:48.215+0000: GC Monitor: Application threads blocked for an additional 923ms [total block time: 583.648s]
+2013-01-16 01:57:49.082+0000: GC Monitor: Application threads blocked for an additional 765ms [total block time: 584.413s]
+2013-01-16 01:57:50.220+0000: GC Monitor: Application threads blocked for an additional 1038ms [total block time: 585.451s]
+2013-01-16 01:57:51.103+0000: GC Monitor: Application threads blocked for an additional 777ms [total block time: 586.228s]
+2013-01-16 01:57:52.271+0000: GC Monitor: Application threads blocked for an additional 1068ms [total block time: 587.296s]
+2013-01-16 01:57:53.170+0000: GC Monitor: Application threads blocked for an additional 789ms [total block time: 588.085s]
+2013-01-16 01:57:54.322+0000: GC Monitor: Application threads blocked for an additional 939ms [total block time: 589.024s]
+2013-01-16 01:57:55.152+0000: GC Monitor: Application threads blocked for an additional 729ms [total block time: 589.753s]
+2013-01-16 01:57:56.186+0000: GC Monitor: Application threads blocked for an additional 933ms [total block time: 590.686s]
+2013-01-16 01:57:57.054+0000: GC Monitor: Application threads blocked for an additional 768ms [total block time: 591.454s]
+2013-01-16 01:57:58.201+0000: GC Monitor: Application threads blocked for an additional 815ms [total block time: 592.269s]
+2013-01-16 01:57:59.303+0000: GC Monitor: Application threads blocked for an additional 845ms [total block time: 593.114s]
+2013-01-16 01:58:00.144+0000: GC Monitor: Application threads blocked for an additional 733ms [total block time: 593.847s]
+2013-01-16 01:58:01.241+0000: GC Monitor: Application threads blocked for an additional 997ms [total block time: 594.844s]
+2013-01-16 01:58:02.351+0000: GC Monitor: Application threads blocked for an additional 801ms [total block time: 595.645s]
+2013-01-16 01:58:03.249+0000: GC Monitor: Application threads blocked for an additional 798ms [total block time: 596.443s]
+2013-01-16 01:58:04.608+0000: GC Monitor: Application threads blocked for an additional 738ms [total block time: 597.181s]
+2013-01-16 01:58:06.179+0000: GC Monitor: Application threads blocked for an additional 948ms [total block time: 598.129s]
+2013-01-16 01:58:09.991+0000: GC Monitor: Application threads blocked for an additional 517ms [total block time: 598.646s]
+2013-01-16 01:58:12.881+0000: GC Monitor: Application threads blocked for an additional 628ms [total block time: 599.274s]
+2013-01-16 01:58:13.619+0000: GC Monitor: Application threads blocked for an additional 637ms [total block time: 599.911s]
+2013-01-16 01:58:14.637+0000: GC Monitor: Application threads blocked for an additional 817ms [total block time: 600.728s]
+2013-01-16 01:58:15.377+0000: GC Monitor: Application threads blocked for an additional 640ms [total block time: 601.368s]
+2013-01-16 01:58:16.385+0000: GC Monitor: Application threads blocked for an additional 907ms [total block time: 602.275s]
+2013-01-16 01:58:17.236+0000: GC Monitor: Application threads blocked for an additional 736ms [total block time: 603.011s]
+2013-01-16 01:58:18.352+0000: GC Monitor: Application threads blocked for an additional 1015ms [total block time: 604.026s]
+2013-01-16 01:58:19.203+0000: GC Monitor: Application threads blocked for an additional 738ms [total block time: 604.764s]
+2013-01-16 01:58:20.330+0000: GC Monitor: Application threads blocked for an additional 1026ms [total block time: 605.79s]
+2013-01-16 01:58:21.180+0000: GC Monitor: Application threads blocked for an additional 750ms [total block time: 606.54s]
+2013-01-16 01:58:22.199+0000: GC Monitor: Application threads blocked for an additional 919ms [total block time: 607.459s]
+2013-01-16 01:58:23.037+0000: GC Monitor: Application threads blocked for an additional 738ms [total block time: 608.197s]
+2013-01-16 01:58:24.168+0000: GC Monitor: Application threads blocked for an additional 1030ms [total block time: 609.227s]
+2013-01-16 01:58:24.911+0000: GC Monitor: Application threads blocked for an additional 642ms [total block time: 609.869s]
+2013-01-16 01:58:26.055+0000: GC Monitor: Application threads blocked for an additional 1043ms [total block time: 610.912s]
+2013-01-16 01:58:27.255+0000: GC Monitor: Application threads blocked for an additional 684ms [total block time: 611.596s]
+2013-01-16 01:58:28.737+0000: GC Monitor: Application threads blocked for an additional 693ms [total block time: 612.289s]
+2013-01-16 01:58:29.620+0000: GC Monitor: Application threads blocked for an additional 782ms [total block time: 613.071s]
+2013-01-16 01:58:30.744+0000: GC Monitor: Application threads blocked for an additional 820ms [total block time: 613.891s]
+2013-01-16 01:58:31.950+0000: GC Monitor: Application threads blocked for an additional 650ms [total block time: 614.541s]
+2013-01-16 01:58:32.808+0000: GC Monitor: Application threads blocked for an additional 757ms [total block time: 615.298s]
+2013-01-16 01:58:34.089+0000: GC Monitor: Application threads blocked for an additional 661ms [total block time: 615.959s]
+2013-01-16 01:58:35.506+0000: GC Monitor: Application threads blocked for an additional 734ms [total block time: 616.693s]
+2013-01-16 01:58:36.369+0000: GC Monitor: Application threads blocked for an additional 763ms [total block time: 617.456s]
+2013-01-16 01:58:37.488+0000: GC Monitor: Application threads blocked for an additional 1019ms [total block time: 618.475s]
+2013-01-16 01:58:38.335+0000: GC Monitor: Application threads blocked for an additional 727ms [total block time: 619.202s]
+2013-01-16 01:58:39.446+0000: GC Monitor: Application threads blocked for an additional 1011ms [total block time: 620.213s]
+2013-01-16 01:58:40.319+0000: GC Monitor: Application threads blocked for an additional 772ms [total block time: 620.985s]
+2013-01-16 01:58:41.447+0000: GC Monitor: Application threads blocked for an additional 927ms [total block time: 621.912s]
+2013-01-16 01:58:42.315+0000: GC Monitor: Application threads blocked for an additional 767ms [total block time: 622.679s]
+2013-01-16 01:58:44.197+0000: GC Monitor: Application threads blocked for an additional 1672ms [total block time: 624.351s]
+2013-01-16 01:58:45.317+0000: GC Monitor: Application threads blocked for an additional 1019ms [total block time: 625.37s]
+2013-01-16 01:58:46.194+0000: GC Monitor: Application threads blocked for an additional 773ms [total block time: 626.143s]
+2013-01-16 01:58:47.314+0000: GC Monitor: Application threads blocked for an additional 917ms [total block time: 627.06s]
+2013-01-16 01:58:48.030+0000: GC Monitor: Application threads blocked for an additional 616ms [total block time: 627.676s]
+2013-01-16 01:58:49.155+0000: GC Monitor: Application threads blocked for an additional 1025ms [total block time: 628.701s]
+2013-01-16 01:58:50.340+0000: GC Monitor: Application threads blocked for an additional 879ms [total block time: 629.58s]
+2013-01-16 01:58:51.450+0000: GC Monitor: Application threads blocked for an additional 798ms [total block time: 630.378s]
+2013-01-16 01:58:52.344+0000: GC Monitor: Application threads blocked for an additional 783ms [total block time: 631.161s]
+2013-01-16 01:58:53.477+0000: GC Monitor: Application threads blocked for an additional 921ms [total block time: 632.082s]
+2013-01-16 01:58:54.572+0000: GC Monitor: Application threads blocked for an additional 894ms [total block time: 632.976s]
+2013-01-16 01:58:55.454+0000: GC Monitor: Application threads blocked for an additional 779ms [total block time: 633.755s]
+2013-01-16 01:58:56.788+0000: GC Monitor: Application threads blocked for an additional 719ms [total block time: 634.474s]
+2013-01-16 01:58:57.738+0000: GC Monitor: Application threads blocked for an additional 509ms [total block time: 634.983s]
+2013-01-16 01:58:58.027+0000: Stopping - database is now unavailable
+2013-01-16 01:58:58.046+0000: GC Monitor stopped. 
+2013-01-16 01:58:58.132+0000: Closed log ./data/index/lucene.log
+2013-01-16 01:58:58.137+0000: TM shutting down
+2013-01-16 01:58:59.388+0000: Closed log ./data/nioneo_logical.log
+2013-01-16 01:58:59.393+0000: ./data/neostore.relationshiptypestore.db.names hit=0 miss=10 switches=0 ooe=0
+2013-01-16 01:58:59.394+0000: ./data/neostore.relationshiptypestore.db hit=0 miss=10 switches=0 ooe=0
+2013-01-16 01:58:59.394+0000: ./data/neostore.propertystore.db.strings hit=1286 miss=0 switches=0 ooe=0
+2013-01-16 01:58:59.395+0000: ./data/neostore.propertystore.db.index.keys hit=0 miss=11 switches=0 ooe=0
+2013-01-16 01:58:59.395+0000: ./data/neostore.propertystore.db.index hit=0 miss=11 switches=0 ooe=0
+2013-01-16 01:58:59.395+0000: ./data/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-01-16 01:58:59.398+0000: ./data/neostore.propertystore.db hit=1652701 miss=0 switches=0 ooe=0
+2013-01-16 01:58:59.402+0000: ./data/neostore.relationshipstore.db hit=26589399 miss=0 switches=0 ooe=0
+2013-01-16 01:58:59.574+0000: ./data/neostore.nodestore.db hit=16288346 miss=0 switches=0 ooe=0
+2013-01-16 01:58:59.620+0000: ./data/neostore hit=0 miss=765968 switches=0 ooe=0
+2013-01-16 01:58:59.621+0000: NeoStore closed
+2013-01-16 01:58:59.621+0000: --- STOPPING diagnostics START ---
+2013-01-16 01:58:59.621+0000: --- STOPPING diagnostics END ---
