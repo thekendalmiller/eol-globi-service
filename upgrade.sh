@@ -1,5 +1,5 @@
 # used to upgrade server on aws
-service neo4j-service stope
+service neo4j-service stop
 
 git reset --hard
 git clean -f -d 
